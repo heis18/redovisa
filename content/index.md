@@ -1,25 +1,29 @@
 ---
 title: "Min fina titel"
+
+views:
+    byline:
+        region: after-main
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/byline
+
 ---
-Min me-sida i kursen design
+
+Helenas me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Ny kurs, nya funderingar!
+-------------------------
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/family-800.jpg?w=400" class="right" caption="Jag med hela familjen!"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Så, vad kan jag berätta om mig själv den här gången? Fortfarande gift, äktenskapet överlevde förra kursen. Barnen växer och har givetvis, åtminstånde den stora, börjat längta ordentligt till jul och sitt första riktiga jullov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Då min värld och mina intressen ser ut som de gör, så känner jag i nuläget att jag ser fram mycket emot en kurs som ska ha inriktningen Design. Jag har så länge jag kan minnas varit intresserad av pyssel, färg, konstnärliga uttryck av olika former. Jag startade min bana redan som fem-sexåring med att designa mina egna klippdockor, prinsessarme av toarullar och sedan har det bara fortsatt på den banan. Gillar konstnärliga uttryck både skapade för hand och digitalt.
 
-Mitt namn är Helena Isåfjäll. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+ Jag kom under min gymnasietid fram till att jag ville satsa på en karriär som bildlärare och läste till detta i början på 2000-talet. Ett beslut jag nu börjat ompröva, då skolans värld ibland kan vara väldigt påfrestande. Jag trivs väldigt bra med mitt arbete och se elever utvecklas i sitt skapande, men känner att jag samtidigt behöver utveckla mig själv med. Min man är programmerare, så efter 17 år tillsammans har jag börjat känna at prova liknande bana, men med mer dragning åt designhållet än han (han har minimal designkänska, koden prio ett ;) )!
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+ Övriga fritidsintressen är det skralt med, barnen äger tillvaron. Jobb, studier och barn fyller dagarna så det räcker till och blir över!

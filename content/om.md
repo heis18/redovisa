@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,17 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Design!
 
-Skriv några kloka ord om kursen?
+[FIGURE src=image/arvin.jpg?w=350 class="right" caption="En 2-årig grabb som också gillar färg och form."]
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Ett ord som väcker många funderingar. I min värld är det ett väldigt positivt ord, hos mina elever i skolan ett bitvis skräckinjagande. En kurs med inriktning mot designen på en webbsida lockar mig som person. Inspirerande start på kursen fick vi även genom Mikaels föreläsning där han använde sig av i princip ordagrant samma beskrivning av vad design är som jag gör till mina 8:onde klasser! ;)
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+Jag ser fram emot att få utveckla mina kunskaper om färg och form ytterligare i ett nytt forum!
