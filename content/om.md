@@ -15,11 +15,20 @@ views:
             meta:
                 type: single
                 route: block/om-redovisa
+
+    byline:
+        region: after-main
+        template: anax/v2/block/default
+        data:
+              meta:
+                  type: single
+                  route: block/byline
 ---
 Om
 =========================
 
 Design!
+------------------------
 
 [FIGURE src=image/arvin.jpg?w=350 class="right" caption="En 2-årig grabb som också gillar färg och form."]
 
