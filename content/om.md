@@ -17,12 +17,14 @@ views:
                 route: block/om-redovisa
 
     byline:
-        region: after-main
+        region: main
         template: anax/v2/block/default
+        sort: 2
         data:
-              meta:
-                  type: single
-                  route: block/byline
+            class: byline
+            meta:
+                type: single
+                route: block/byline
 ---
 Om
 =========================
