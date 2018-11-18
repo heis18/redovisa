@@ -1,0 +1,199 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+ @mainColor:  #fcfcfc;
+
+.inner-wrap {
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.inner-wrap.inner-wrap-header{
+    margin-right:auto;
+    margin-left:auto;
+    max-width:100%;
+}
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+.site-logo{
+    position:absolute;
+    top:40px;
+    left:40px;
+}
+
+.site-logo img {
+    display:none;
+}
+
+.site-logo-text-icon img{
+    display:none;
+}
+
+.outer-wrap-header {
+  padding: 15px;
+}
+
+.inner-wrap-header {
+  max-width:none;
+  margin: 0 auto;
+}
+
+.inner-wrap-header .row{
+    max-width:100%;
+}
+
+.region-header-col-1{
+    display:inline;
+    float:left;
+    width:15%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+}
+
+.region-header-col-2{
+    display:inline;
+    float:left;
+    width:70%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+}
+
+.region-header-col-3{
+    display:inline;
+    float:left;
+    width:15%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+}
+
+.region-navbar{
+    display:inline;
+    float:left;
+    width:98.95833333%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+}
+
+.outer-wrap-flash {
+    margin-bottom:24px;
+}
+
+.inner-wrap-flash {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.flashImg {
+    display: none;
+}
+
+.region-breadcrumb{
+    display:inline;
+    float:left;
+    width:98.95833333%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+}
+
+.region-main{
+    display:inline;
+    float:left;
+    width:80%;
+    margin-left:10%;
+    background-color: @mainColor;
+    padding: 10px;
+}
+
+.region-main.has-sidebar-left{
+    display:inline;
+    float:left;
+    width:65.625%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+    margin-left:4.6875%;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.region-main.has-sidebar-right{
+    display:inline;
+    float:left;
+    width:65.625%;
+    margin-right:.52083333%;
+    margin-left:.52083333%;
+    padding: 10px;
+    padding-bottom: 20px;
+
+}
+.region-main.has-sidebar-left.has-sidebar-right{
+    display:inline;
+    float:left;
+    width:48.95833333%;
+    margin-right:.52083333%;
+    margin-left:.52083333%;
+}
+.region-sidebar-left,.region-sidebar-right{
+    display:inline;
+    float:left;
+    width:28.125%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+    background-color: @mainColor;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.region-sidebar-right{
+    margin-left:4.6875%;
+}
+
+.region-sidebar-left.has-sidebar-right,.region-sidebar-right.has-sidebar-left{
+    display:inline;
+    float:left;
+    width:23.95833333%;
+    margin-right:.52083333%;
+    margin-left:.52083333%;
+}
+
+.region-footer{
+    display:inline;
+    float:left;
+    width:98.95833333%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+}
+.footer-column-wrapper::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.footer-column{
+    display:inline;
+    float:left;
+    width:32.29166667%;
+    margin-left:.52083333%;
+    margin-right:.52083333%;
+}
+.footer-column,.footer-column-x{
+    height:100%;
+}

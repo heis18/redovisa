@@ -1,0 +1,25 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #d9d9d9;
+@bgColorBody: #f1f1f1;
+//@colorBody: #333;
+@fontFamilyBody: arial;
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  background-color: @bgColorHtml;
+    overflow-y: scroll;
+    font-family: sans-serif, arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: @bgColorBody;
+    font: @fontFamilyBody;
+}
