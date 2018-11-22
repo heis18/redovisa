@@ -4,11 +4,24 @@
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
 
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
 /**
  * Internal self contained modules, save in directory module/.
  */
 
-@import "module/kmom01.less";
 @import "module/stylechooser.less";  // Just an example module
 
 
@@ -26,11 +39,24 @@
  */
 
 @import "layout/layout.less";
-@import "layout/responsive.less";
-@import "layout/regions.less";     // To add style for ?regions
+@import "layout/layout02.less";
+@import "module/typo02.less";
 
+@import "layout/regions.less";     // To add style for ?regions
+@import "layout/responsive.less";
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
 
 
 /**
  * My own settings, not currently in their own module.
  */
+
+@fontFamilyBody: tahoma;
+@headerColor: #9fa9b4;
+@footerBorder: #757189;

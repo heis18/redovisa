@@ -5,7 +5,7 @@
 #
 # Do NOT forget to change /~mosstud/ to your own student acronym.
 #
-RewriteEngine on
+RewriteEngine On
 
 # Igore real files (images, stylesheets etc.)
 RewriteCond %{REQUEST_FILENAME} -f [OR]
@@ -23,7 +23,7 @@ RewriteRule (.*) /~heis18/dbwebb-kurser/design/me/redovisa/htdocs/index.php/$1 [
 
 # Rewrite 2 - For other requests
 RewriteCond %{HTTP_HOST} !^www\.student\.bth\.se$ [NC]
-RewriteRule ^image/(.*)$ cimage/img.php?src=$1 [QSA,NC,L]
+RewriteRule ^image/(.*)$ /me/redovisa/htdocs/cimage/img.php?src=$1 [QSA,NC,L]
 
 RewriteCond %{HTTP_HOST} !^www\.student\.bth\.se$ [NC]
-RewriteRule (.*) index.php/$1 [NC,L]
+RewriteRule (.*) /me/redovisa/htdocs/index.php/$1 [NC,L]

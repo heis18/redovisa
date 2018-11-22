@@ -7,3 +7,75 @@
         display: none;
     }
 }
+
+// navbar
+
+@media screen and (max-width: 960px) {
+      .rm-desktop {
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+
+      .rm-default a {
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+      .site-logo-text{
+          line-height:20px;
+            a {
+              text-decoration: none;
+              color: #9e238b;
+              text-shadow:2px -2px 2px #ccc;
+              font-size:26px;
+              font-weight: bold;
+            }
+      }
+
+
+}
+
+@media screen and (max-width: 640px) {
+      .rm-desktop {
+          display: none;
+      }
+
+      .site-logo-text{
+        line-height:10px;
+          a {
+            text-decoration: none;
+            color: #9e238b;
+            text-shadow:2px -2px 2px #ccc;
+            font-size:20px;
+            font-weight: bold;
+      }
+    }
+    .region-sidebar-left {
+          height: 100%;
+          width: 98%;
+          margin-left: 1%;
+          margin-right: 1%;
+          display: block;
+      }
+    .main, .region-main.has-sidebar-left, .region-main.has-sidebar-right, .region-main.has-sidebar-left.has-sidebar-right {
+          height: 100%;
+          width: 98%;
+          margin-left: 1%;
+          margin-right: 1%;
+          display: block;
+      }
+    .region-sidebar-right {
+          height: 100%;
+          width: 98%;
+          margin-left: 1%;
+          margin-right: 1%;
+          display: block;
+      }
+
+      .footer-column {
+          height: 100%;
+          width: 98%;
+          margin-left: 1%;
+          margin-right: 1%;
+          display: block;
+    }
+}
