@@ -1,0 +1,77 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+// navbar
+
+@media screen and (max-width: 980px) {
+      .region-main {
+            #desinax-vgrid.column (@columns);
+      }
+
+      .rm-default a {
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+
+      .site-logo-text a {
+              font-family: @logoText;
+              font-size: 2em;
+              text-decoration: none;
+              color: #9e238b;
+              text-shadow:2px -2px 2px #ccc;
+              line-height: 0.8em;
+      }
+
+}
+
+@media screen and (max-width: 840px) {
+
+      .region-main.has-sidebar-right {
+          #desinax-vgrid.column (@columns);
+    }
+
+      &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column (@columns);
+    }
+
+      .region-sidebar-left,
+      .region-sidebar-right{
+          #desinax-vgrid.column (@columns);
+          #desinax-vgrid.push (0);
+    }
+
+      .region-sidebar-left.has-sidebar-right,
+      .region-sidebar-right.has-sidebar-left{
+          #desinax-vgrid.column (@columns);
+    }
+
+      .rm-desktop {
+          display: none;
+    }
+
+      .site-logo-text a {
+            font-family: @logoText;
+            font-size: 1.5em;
+            text-decoration: none;
+            color: #9e238b;
+            text-shadow:2px -2px 2px #ccc;
+            line-height: 0.8em;
+    }
+
+      .footer-column {
+          #desinax-vgrid.column (@columns);
+          // height: 100%;
+          // width: 98%;
+          padding-left: 1%;
+          padding-right: 1%;
+          // display: block;
+    }
+    
+}

@@ -1,0 +1,35 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #d9d9d9;
+@bgColorBody: #f1f1f1;
+//@colorBody: #333;
+//@fontFamilyBody: arial, sans-serif;
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: @bgColorHtml;
+    overflow-y: scroll;
+//    font-family: @fontFamilyBody;
+}
+
+// Activate the grid base font
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+//    margin: 0;
+//    padding: 0;
+    background-color: @bgColorBody;
+    // Activate the grid base font
+    #desinax-hgrid.font(@fontSizeBody);
+    }
+
+img {
+    max-width: 100%;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
