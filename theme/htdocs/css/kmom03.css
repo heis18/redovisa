@@ -4863,8 +4863,6 @@ hr::after {
 }
 .rm-navbar {
   text-align: center;
-  font-family: ;
-  font-size: 30px;
 }
 .rm-navbar ul {
   list-style: none;
@@ -4879,6 +4877,9 @@ hr::after {
   display: block;
   text-decoration: none;
   white-space: nowrap;
+  font-family: "serif";
+  font-size: 2em;
+  padding: 15px;
   outline: 0;
   color: white;
 }
