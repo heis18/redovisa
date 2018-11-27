@@ -4803,15 +4803,6 @@ hr::after {
   background-repeat: no-repeat;
   border-bottom: 10px solid #9fa9b4;
 }
-/* Hide submenu, leave this to kmom02 */
-/*.rm-desktop ul {
-    display: none;
-}
-
-/* Hide responsive/mobile menu, leave this to kmom02 */
-/*.rm-navbar-max {
-    display: none;
-}*/
 .site-logo-text a {
   font-family: 'Lobster', cursive;
   font-size: 2.5em;
@@ -4840,8 +4831,7 @@ hr::after {
   display: inline;
 }
 .breadcrumb-list {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 24px;
   font-size: 14px;
   font-style: italic;
 }
@@ -4903,6 +4893,8 @@ hr::after {
   margin-right: 0.52083333%;
   background-color: #fcfcfc;
   padding: 5px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .region-main.has-sidebar {
   display: inline;
@@ -4942,6 +4934,8 @@ hr::after {
   display: inline;
   background-color: #fcfcfc;
   padding: 5px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .region-sidebar-right {
   margin-left: 4.6875%;
