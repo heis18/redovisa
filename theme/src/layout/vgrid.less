@@ -151,6 +151,7 @@
   }
 
   .breadcrumb-list {
+    margin-top: 1em;
     margin-bottom: 1em;
     font-size: 14px;
     font-style: italic;
@@ -189,21 +190,23 @@
     position: relative;
 }
 
-.rm-default li {
-    display: inline-block;
-}
 
-.rm-default a {
-    display: block;
-    text-decoration: none;
-    white-space: nowrap;
-    font-family: @fontFamilyHeadings;
-    font-size: 2em;
-    padding: 15px;
-//    padding-top: 0;
-//    padding-bottom: 25px;
-    outline: 0;
-    color: white;
+.rm-default {
+      a {
+          display: block;
+          text-decoration: none;
+          white-space: nowrap;
+          font-family: @fontFamilyHeadings;
+          font-size: 2em;
+          padding: 15px;
+      //    padding-top: 0;
+      //    padding-bottom: 25px;
+          outline: 0;
+          color: white;
+      }
+      li {
+          display: inline-block;
+      }
 }
 
 .rm-desktop li a:hover {
@@ -212,13 +215,11 @@
 
 .next-previous {
     margin-bottom: 2em;
+        .next {
+          float: right;
+          text-align: right;
+      }
 }
-
-.next-previous .next {
-    float: right;
-    text-align: right;
-}
-
 
 .rm-default ul.rm-show-submenu{
     // left:0;
@@ -284,6 +285,19 @@
     display:inline;
 }
 
+.toc {
+  list-style: none;
+  .section-header {
+    font-size: @fontSizeH4;
+  }
+
+  a {
+    font-size: @fontSizeH5;
+    line-height: 2em;
+    text-decoration: none;
+    }
+}
+
 figure.figure.left{
     float:left;
     margin-right:15px;
@@ -298,12 +312,19 @@ figure.figure.right{
     margin-left: 15px;
     margin-top: 4px;
     border: solid 0.1px @figureBorderColor;
-     padding: 5px;
+    padding: 5px;
     margin-right: 5px;
 }
 figure.figure.center{
     clear:both;
     // margin:auto;
+}
+
+figure.figure figcaption p{
+    font-style:italic;
+    font-size: 0.8em;
+    line-height: 0.5em;
+    margin-bottom: 0.8em;
 }
 
 .byline {

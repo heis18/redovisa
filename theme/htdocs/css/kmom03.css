@@ -4840,6 +4840,7 @@ hr::after {
   display: inline;
 }
 .breadcrumb-list {
+  margin-top: 1em;
   margin-bottom: 1em;
   font-size: 14px;
   font-style: italic;
@@ -4870,9 +4871,6 @@ hr::after {
 .rm-desktop li {
   position: relative;
 }
-.rm-default li {
-  display: inline-block;
-}
 .rm-default a {
   display: block;
   text-decoration: none;
@@ -4882,6 +4880,9 @@ hr::after {
   padding: 15px;
   outline: 0;
   color: white;
+}
+.rm-default li {
+  display: inline-block;
 }
 .next-previous {
   margin-bottom: 2em;
@@ -4949,6 +4950,17 @@ hr::after {
   margin-right: 0.52083333%;
   display: inline;
 }
+.toc {
+  list-style: none;
+}
+.toc .section-header {
+  font-size: 1.5em;
+}
+.toc a {
+  font-size: 1.25em;
+  line-height: 2em;
+  text-decoration: none;
+}
 figure.figure.left {
   float: left;
   margin-right: 15px;
@@ -4967,6 +4979,12 @@ figure.figure.right {
 }
 figure.figure.center {
   clear: both;
+}
+figure.figure figcaption p {
+  font-style: italic;
+  font-size: 0.8em;
+  line-height: 0.5em;
+  margin-bottom: 0.5em;
 }
 .byline {
   border: solid 2px #9fa9b4;
