@@ -228,7 +228,6 @@
 .wrap-sidebar .block h4{
     border-top:1px solid #ccc;
     background-image:linear-gradient(to right,#fff,#ccc);
-    padding-left: 5px;
 }
 
 .inner-wrap-columns-above{
@@ -246,6 +245,7 @@
       #desinax-vgrid.column (@columns * 3 / 4);
       #desinax-vgrid.push (3);
       background-color: @mainColor;
+      padding: 5px;
 
         &.has-sidebar {
           #desinax-vgrid.push (0);
@@ -269,6 +269,8 @@
     #desinax-vgrid.column (@columns * 1 / 4);
     display:inline;
     background-color: @mainColor;
+    padding: 5px;
+
     // padding-left: 10px;
     // padding-right: 10px;
 }
@@ -328,7 +330,9 @@ figure.figure figcaption p{
 }
 
 .byline {
-    border: solid 2px @headerColor;
+    #desinax-vgrid.column (@columns - 2);
+    #desinax-vgrid.push (1);
+    border: solid 1.5px @figureBorderColor;
     margin-top: 20px;
     margin-bottom: 20px;
     clear: both;
