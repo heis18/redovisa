@@ -32,12 +32,14 @@
 }
 
 @media screen and (max-width: 840px) {
-
+            .region-main.has-sidebar-left {
+          #desinax-vgrid.column (@columns);
+    }
       .region-main.has-sidebar-right {
           #desinax-vgrid.column (@columns);
     }
 
-      &.has-sidebar-left.has-sidebar-right {
+      .region-main.has-sidebar-left.has-sidebar-right {
             #desinax-vgrid.column (@columns);
     }
 
@@ -73,5 +75,5 @@
           padding-right: 1%;
           // display: block;
     }
-    
+
 }

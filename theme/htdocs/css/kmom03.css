@@ -4344,6 +4344,30 @@ template {
   font-weight: 400;
   src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6J6Mw.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Assistant'), local('Assistant-Regular'), url(https://fonts.gstatic.com/s/assistant/v2/2sDcZGJYnIjSi6H75xkzaGW8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Assistant SemiBold'), local('Assistant-SemiBold'), url(https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk7t0GsBJ0d.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Assistant Bold'), local('Assistant-Bold'), url(https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk700CsBJ0d.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Assistant ExtraBold'), local('Assistant-ExtraBold'), url(https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk7z0OsBJ0d.ttf) format('truetype');
+}
 /**
  * Import the typographic grid.
  */
@@ -4398,7 +4422,7 @@ html {
 }
 body {
   background-color: #f1f1f1;
-  font: 16px/1.5 "tahoma";
+  font: 16px/1.5 "tahoma", "Assistant", "arial", "san-serif";
 }
 img {
   max-width: 100%;
@@ -4892,7 +4916,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   background-color: #fcfcfc;
-  padding: 5px;
+  padding: 10px;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4991,6 +5015,7 @@ figure.figure figcaption p {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
+  margin-right: 10%;
   border: solid 1.5px #bfc4cc;
   margin-top: 48px;
   margin-bottom: 48px;
@@ -5097,6 +5122,13 @@ figure.figure figcaption p {
   }
 }
 @media screen and (max-width: 840px) {
+  .region-main.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
   .region-main.has-sidebar-right {
     display: inline;
     float: left;
@@ -5104,7 +5136,7 @@ figure.figure figcaption p {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-  .has-sidebar-left.has-sidebar-right {
+  .region-main.has-sidebar-left.has-sidebar-right {
     display: inline;
     float: left;
     width: 98.95833333%;
@@ -5248,6 +5280,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-color: #9fa9b4;
   padding: 2px;
   padding-top: 15px;
+  line-height: 1em;
 }
 .rm-desktop li {
   position: relative;

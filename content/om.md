@@ -29,8 +29,7 @@ views:
 Om
 =========================
 
-Design!
-------------------------
+### Design!
 
 [FIGURE src=image/arvin.jpg?w=350 class="right" caption="En 2-årig grabb som också gillar färg och form."]
 

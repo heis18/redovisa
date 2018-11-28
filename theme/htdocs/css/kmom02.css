@@ -4960,6 +4960,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-color: #9fa9b4;
   padding: 2px;
   padding-top: 15px;
+  line-height: 1em;
 }
 .rm-desktop li {
   position: relative;
