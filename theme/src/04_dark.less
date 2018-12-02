@@ -10,43 +10,85 @@
 
 @fontFamilyBody: 'Arsenal', sans-serif;
 @fontFamilyHeadings-1: 'Unlock', cursive;
-@fontFamilyHeadings: 'Arsenal', sans-serif, bold;
+@fontFamilyHeadings: 'Arsenal', sans-serif;
 @logoText: 'Tangerine', cursive;
 
 
-@bgColorHtml: #d9d9d9;
-@mainColor:  #fcfcfc;
-@headerColor: #a3aab1;
+//@bgColorHtml: #617085;
+@bgColorBody: #617085;
+@mainColor:  #495979;
+@headerColor: #1b2032;
 
-@headeTextColor: # ;
-@bodyTextColor: # ;
-@footerTextColor: #fff;
+@headeTextColor: #f2f2ef;
+@bodyTextColor: #f2f2ef;
+@footerTextColor: #f2f2ef;
+@linkTextColor: #b1b9c9;
 
-@footerBorder: #666;
-@figureBorderColor: #bfc4cc;
+@footerBorder: #b1b9c9;
+@figureBorderColor: #b1b9c9;
 
 
 html {
-          color: @headeTextColor;
+        color: @headeTextColor;
 }
 
 body {
-          color: @bodyTextColor;
+        color: @bodyTextColor;
     }
 
 .rm-default {
       a {
           font-family: @fontFamilyHeadings;
           font-size: 2em;
-          padding: 15px;
+          padding: 12px;
           outline: 0;
           color: white;
-      }
+        }
+}
 
-      .toc {
-          a {
-            font-size: @fontSizeH5;
-            line-height: 2.4em;
-            color: @bodyTextColor;
-            }
-      }
+.toc {
+        a {
+          font-size: @fontSizeH5;
+          line-height: 2.4em;
+          color: @bodyTextColor;
+          }
+}
+
+h2, h3, {
+        font-weight: bold;
+}
+
+a {
+        color: @linkTextColor;
+}
+.site-logo-text a {
+        font-family: @logoText;
+        font-size: 3.2em;
+        color: #9e238b;
+        line-height: 1.5em;
+        text-shadow: 2px -1px 0px @figureBorderColor;;
+}
+
+.wrap-sidebar .block h4{
+        border-top:1px solid @figureBorderColor;
+        background-image: none;
+        background-color: @headerColor;
+}
+
+.outer-wrap-footer {
+        background-color: @headerColor;
+}
+
+.rm-max .rm-mobile {
+      padding-top: 72px;
+      background-color: @headerColor;
+
+      .rm-submenu-button {
+            box-shadow: 0 0 1px @figureBorderColor;
+            background-color: @mainColor;
+        }
+}
+
+code {
+    background-color: transparent;
+}

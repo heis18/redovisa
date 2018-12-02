@@ -4326,48 +4326,6 @@ template {
 /**
  * Style
  */
-@font-face {
-  font-family: 'Abril Fatface';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Abril Fatface'), local('AbrilFatface-Regular'), url(https://fonts.gstatic.com/s/abrilfatface/v9/zOL64pLDlL1D99S8g8PtiKchq-lmiA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoymNg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Pacifico';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6J6Mw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Assistant';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Assistant'), local('Assistant-Regular'), url(https://fonts.gstatic.com/s/assistant/v2/2sDcZGJYnIjSi6H75xkzaGW8.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Assistant';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Assistant SemiBold'), local('Assistant-SemiBold'), url(https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk7t0GsBJ0d.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Assistant';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Assistant Bold'), local('Assistant-Bold'), url(https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk700CsBJ0d.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Assistant';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Assistant ExtraBold'), local('Assistant-ExtraBold'), url(https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk7z0OsBJ0d.ttf) format('truetype');
-}
 /**
  * Import the typographic grid.
  */
@@ -4422,7 +4380,7 @@ html {
 }
 body {
   background-color: #f1f1f1;
-  font: 16px/1.5 "tahoma", "Assistant", "arial", "san-serif";
+  font: 16px/1.5 "sans-serif";
 }
 img {
   max-width: 100%;
@@ -4794,7 +4752,7 @@ hr::after {
   }
 }
 .outer-wrap-header {
-  background-color: #9fa9b4;
+  background-color: #a3aab1;
   padding-top: 1em;
   padding-bottom: 0.5em;
 }
@@ -4822,10 +4780,10 @@ hr::after {
 }
 .outer-wrap-flash {
   background-image: url("../../htdocs/img/huvud-2000.jpg");
-  background-color: #9fa9b4;
+  background-color: #a3aab1;
   min-height: 300px;
   background-repeat: no-repeat;
-  border-bottom: 10px solid #9fa9b4;
+  border-bottom: 10px solid #a3aab1;
 }
 .site-logo-text a {
   font-family: 'Lobster', cursive;
@@ -5052,7 +5010,7 @@ figure.figure figcaption p {
 }
 .footer-column-wrapper {
   color: #fff;
-  border-bottom: 1px solid #757189;
+  border-bottom: 1px solid #666;
 }
 .footer-column-wrapper ul {
   list-style: none;
@@ -5062,7 +5020,7 @@ figure.figure figcaption p {
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 1px solid #757189;
+  border-right: 1px solid #666;
 }
 .site-footer {
   display: inline;
@@ -5277,7 +5235,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: #9fa9b4;
+  background-color: #a3aab1;
   padding: 2px;
   padding-top: 15px;
   line-height: 1em;
