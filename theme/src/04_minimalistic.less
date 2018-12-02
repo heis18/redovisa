@@ -1,0 +1,104 @@
+ @import "kmom04.less";
+
+ @import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
+ @import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Maven+Pro:400,500,700,900|Text+Me+One');
+
+ // font-family: 'Text Me One', sans-serif;
+ // font-family: 'Maven Pro', sans-serif;
+ // font-family: 'Cinzel', serif;
+
+
+
+@fontFamilyBody: 'Maven Pro', sans-serif;
+@fontFamilyHeadings-1: 'Cinzel', serif;
+@fontFamilyHeadings: 'Cinzel', serif;
+@logoText: 'Tangerine', cursive;
+
+
+//@bgColorHtml: #617085;
+@headerColor: #bec3d7;
+@bgColorBody: #f7f7f8;
+@mainColor:  #eaebf3;
+
+
+@headerTextColor: #232324;
+@bodyTextColor: #232324;
+@footerTextColor: #232324;
+@linkTextColor: #1F2024;
+
+@footerBorder: #979bad;
+@figureBorderColor: #979bad;
+
+
+html {
+        color: @headerTextColor;
+}
+
+body {
+        color: @bodyTextColor;
+    }
+
+.outer-wrap-flash {
+          background-image: none;
+          background-color: transparent;
+          min-height: 20px;
+          background-repeat: no-repeat;
+          border-bottom: none;
+  }
+
+.rm-default {
+      a {
+          font-family: @fontFamilyHeadings;
+          font-size: 1.5em;
+          padding: 10px;
+          padding-top: 15px;
+          outline: 0;
+          color: @headerTextColor;
+        }
+}
+
+.toc {
+        a {
+          font-size: @fontSizeH5;
+          line-height: 2.4em;
+          color: @bodyTextColor;
+          }
+}
+
+
+a {
+        color: @linkTextColor;
+}
+.site-logo-text {
+    a {
+        font-family: @logoText;
+        font-size: 3.2em;
+        color: #9e238b;
+        line-height: 1.5em;
+        text-shadow: 2px -1px 0px @mainColor;
+}
+}
+
+.wrap-sidebar .block h4{
+        border-top:1px solid @figureBorderColor;
+        background-image: none;
+        background-color: @headerColor;
+}
+
+.outer-wrap-footer {
+        background-color: @headerColor;
+}
+
+.rm-max .rm-mobile {
+      padding-top: 72px;
+      background-color: @headerColor;
+
+      .rm-submenu-button {
+            box-shadow: 0 0 1px @figureBorderColor;
+            background-color: @mainColor;
+        }
+}
+
+code {
+    background-color: transparent;
+}

@@ -5400,66 +5400,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   src: local('Arsenal Bold'), local('Arsenal-Bold'), url(https://fonts.gstatic.com/s/arsenal/v2/wXKuE3kQtZQ4pF3D7-P5FeMKnQ.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Caudex';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Caudex Italic'), local('Caudex-Italic'), url(https://fonts.gstatic.com/s/caudex/v7/esDS311QOP6BJUr4yMKDtb8.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Caudex';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Caudex Bold Italic'), local('Caudex-BoldItalic'), url(https://fonts.gstatic.com/s/caudex/v7/esDV311QOP6BJUr4yMo4kK8BMpA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Caudex';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Caudex'), url(https://fonts.gstatic.com/s/caudex/v7/esDQ311QOP6BJUr4zfKE.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Caudex';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Caudex Bold'), local('Caudex-Bold'), url(https://fonts.gstatic.com/s/caudex/v7/esDT311QOP6BJUrwdteUkp8G.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Freckle Face';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Freckle Face'), local('FreckleFace-Regular'), url(https://fonts.gstatic.com/s/freckleface/v6/AMOWz4SXrmKHCvXTohxY-YIEVFiy.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Hind Vadodara';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Hind Vadodara Light'), local('HindVadodara-Light'), url(https://fonts.gstatic.com/s/hindvadodara/v4/neIQzCKvrIcn5pbuuuriV9tTSDn3uXQ-pQ.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Hind Vadodara';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Hind Vadodara Regular'), local('HindVadodara-Regular'), url(https://fonts.gstatic.com/s/hindvadodara/v4/neINzCKvrIcn5pbuuuriV9tTQJLVqQ.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Hind Vadodara';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Hind Vadodara Medium'), local('HindVadodara-Medium'), url(https://fonts.gstatic.com/s/hindvadodara/v4/neIQzCKvrIcn5pbuuuriV9tTSGH2uXQ-pQ.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Hind Vadodara';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Hind Vadodara SemiBold'), local('HindVadodara-SemiBold'), url(https://fonts.gstatic.com/s/hindvadodara/v4/neIQzCKvrIcn5pbuuuriV9tTSE3xuXQ-pQ.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Hind Vadodara';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Hind Vadodara Bold'), local('HindVadodara-Bold'), url(https://fonts.gstatic.com/s/hindvadodara/v4/neIQzCKvrIcn5pbuuuriV9tTSCnwuXQ-pQ.ttf) format('truetype');
-}
-@font-face {
   font-family: 'Tangerine';
   font-style: normal;
   font-weight: 400;
