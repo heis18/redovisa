@@ -5464,6 +5464,9 @@ body {
 a {
   color: #1F2024;
 }
+h1 {
+  border-bottom: 1px solid #232324;
+}
 .site-logo-text a {
   font-family: 'Tangerine', cursive;
   font-size: 3.2em;

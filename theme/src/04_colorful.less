@@ -1,0 +1,95 @@
+@import "kmom04.less";
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Merienda:400,700|Patrick+Hand');
+
+// font-family: 'Comfortaa', cursive;
+// font-family: 'Patrick Hand', cursive;
+// font-family: 'Merienda', cursive;
+
+@fontFamilyBody: 'Comfortaa', cursive, sans-serif;
+@fontFamilyHeadings-1: 'Merienda', cursive;
+@fontFamilyHeadings: 'Merienda', cursive;
+@logoText: 'Tangerine', cursive;
+
+
+//@bgColorHtml: #617085;
+@bgColorBody: #DFB2F3;
+@mainColor:  #F8CCF7;
+@headerColor: #7BCFD2;
+
+@headeTextColor: #112A3C;
+@bodyTextColor: #112A3C;
+@footerTextColor: #112A3C;
+@linkTextColor: #1c5d68;
+
+@footerBorder: #2C7D8A;
+@figureBorderColor: #2C7D8A;
+
+
+html {
+        color: @headeTextColor;
+}
+
+body {
+        color: @bodyTextColor;
+    }
+
+.rm-default {
+      a {
+          font-family: @fontFamilyHeadings;
+          font-size: 1.5em;
+          padding: 10px;
+          padding-top: 15px;
+          outline: 0;
+          color: @headeTextColor;
+        }
+}
+
+.toc {
+        a {
+          font-size: @fontSizeH5;
+          line-height: 2.4em;
+          color: @bodyTextColor;
+          }
+}
+
+h1 {
+        font-weight: bold;
+        border-bottom: 1px solid @bodyTextColor;
+}
+
+a {
+        color: @linkTextColor;
+}
+.site-logo-text a {
+        font-family: @logoText;
+        font-size: 3.2em;
+        color: #9e238b;
+        line-height: 1.5em;
+        text-shadow: 2px -1px 0px @mainColor;
+}
+
+.wrap-sidebar .block h4{
+        border-top:1px solid @figureBorderColor;
+        background-image: none;
+        background-color: @headerColor;
+}
+
+.outer-wrap-footer {
+        background-color: @headerColor;
+}
+
+.rm-max .rm-mobile {
+      padding-top: 72px;
+      background-color: @headerColor;
+
+      .rm-submenu-button {
+            box-shadow: 0 0 1px @figureBorderColor;
+            background-color: @mainColor;
+        }
+}
+
+code {
+    background-color: transparent;
+}

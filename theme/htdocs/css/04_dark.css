@@ -5435,6 +5435,9 @@ body {
   line-height: 2.4em;
   color: #f2f2ef;
 }
+h1 {
+  border-bottom: 1px solid #f2f2ef;
+}
 h2,
 h3 {
   font-weight: bold;
