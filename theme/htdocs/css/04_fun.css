@@ -4380,7 +4380,7 @@ html {
 }
 body {
   background-color: #DFB2F3;
-  font: 16px/1.5 'Comfortaa', cursive, sans-serif;
+  font: 16px/1.5 'Text Me One', sans-serif;
 }
 img {
   max-width: 100%;
@@ -4391,7 +4391,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Merienda', cursive;
+  font-family: 'Pompiere', cursive;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4406,7 +4406,7 @@ h6 img {
 h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
-  font-family: 'Merienda', cursive;
+  font-family: 'Ruge Boogie', cursive;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -4847,7 +4847,7 @@ hr::after {
   display: block;
   text-decoration: none;
   white-space: nowrap;
-  font-family: 'Merienda', cursive;
+  font-family: 'Pompiere', cursive;
   font-size: 2em;
   padding: 15px;
   outline: 0;
@@ -5388,54 +5388,73 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   src: local('Tangerine Bold'), local('Tangerine-Bold'), url(https://fonts.gstatic.com/s/tangerine/v9/Iurd6Y5j_oScZZow4VO5srNZi5FI.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Comfortaa';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Comfortaa Light'), local('Comfortaa-Light'), url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw5qN_AtCe.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Comfortaa';
+  font-family: 'Akronim';
   font-style: normal;
   font-weight: 400;
-  src: local('Comfortaa Regular'), local('Comfortaa-Regular'), url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptsg8LJRfWJmhDAuUs4TYFv.ttf) format('truetype');
+  src: local('Akronim Regular'), local('Akronim-Regular'), url(https://fonts.gstatic.com/s/akronim/v7/fdN-9sqWtWZZlHRpygd7lA.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Comfortaa';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url(https://fonts.gstatic.com/s/comfortaa/v12/1Ptpg8LJRfWJmhDAuUsw9qR_AtCe.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Merienda';
+  font-family: 'Arizonia';
   font-style: normal;
   font-weight: 400;
-  src: local('Merienda'), local('Merienda-Regular_0_wt'), url(https://fonts.gstatic.com/s/merienda/v6/gNMHW3x8Qoy5_mf8uWMFMI8.ttf) format('truetype');
+  src: local('Arizonia Regular'), local('Arizonia-Regular'), url(https://fonts.gstatic.com/s/arizonia/v8/neIIzCemt4A5qa7mv5WBFqk.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Merienda';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Merienda Bold'), local('Merienda-Bold'), url(https://fonts.gstatic.com/s/merienda/v6/gNMAW3x8Qoy5_mf8uWu-FZ-13MM.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Patrick Hand';
+  font-family: 'Griffy';
   font-style: normal;
   font-weight: 400;
-  src: local('Patrick Hand'), local('PatrickHand-Regular'), url(https://fonts.gstatic.com/s/patrickhand/v11/LDI1apSQOAYtSuYWp8ZhfYe8XsLO.ttf) format('truetype');
+  src: local('Griffy'), local('Griffy-Regular'), url(https://fonts.gstatic.com/s/griffy/v6/FwZa7-ox2FQh9kfAT96A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montez';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montez Regular'), local('Montez-Regular'), url(https://fonts.gstatic.com/s/montez/v8/845ZNMk5GoGIX8lW07ra.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Parisienne';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Parisienne'), local('Parisienne-Regular'), url(https://fonts.gstatic.com/s/parisienne/v5/E21i_d3kivvAkxhLEVZpQyhwCg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pompiere';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pompiere '), local('Pompiere-Regular'), url(https://fonts.gstatic.com/s/pompiere/v7/VEMyRoxis5Dwuyeov5Wq7DQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ruge Boogie';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ruge Boogie'), local('RugeBoogie-Regular'), url(https://fonts.gstatic.com/s/rugeboogie/v9/JIA3UVFwbHRF_GIWSMhKNSOlNTE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sacramento';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sacramento'), local('Sacramento-Regular'), url(https://fonts.gstatic.com/s/sacramento/v5/buEzpo6gcdjy0EiZMBUG4C0f-A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Text Me One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZbYFI.ttf) format('truetype');
 }
 html {
   color: #f2f2ef;
 }
 body {
   background-image: url("../../htdocs/img/gren.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  background-color: #D8D8D8;
 }
 .outer-wrap-flash {
   background-image: url("../../htdocs/img/snowman.jpg");
 }
 .rm-default a {
-  font-family: 'Merienda', cursive;
-  font-size: 1.5em;
+  font-family: 'Pompiere', cursive;
+  font-size: 2em;
   padding: 10px;
   padding-top: 15px;
   outline: 0;
@@ -5449,6 +5468,7 @@ body {
 h1 {
   font-weight: bold;
   border-bottom: 1px solid #f2f2ef;
+  font-size: 350%;
 }
 a {
   color: #b1b9c9;

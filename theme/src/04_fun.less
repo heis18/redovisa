@@ -1,20 +1,26 @@
 @import "kmom04.less";
 
 @import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Merienda:400,700|Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Akronim|Arizonia|Griffy|Montez|Parisienne|Pompiere|Ruge+Boogie|Sacramento|Text+Me+One');
+// font-family: 'Pompiere', cursive;
+//font-family: 'Text Me One', sans-serif;
 
-// font-family: 'Comfortaa', cursive;
-// font-family: 'Patrick Hand', cursive;
-// font-family: 'Merienda', cursive;
+// font-family: 'Griffy', cursive;
 
-@fontFamilyBody: 'Comfortaa', cursive, sans-serif;
-@fontFamilyHeadings-1: 'Merienda', cursive;
-@fontFamilyHeadings: 'Merienda', cursive;
+// font-family: 'Parisienne', cursive;
+// font-family: 'Arizonia', cursive;
+// font-family: 'Ruge Boogie', cursive;
+
+
+@fontFamilyHeadings-1: 'Ruge Boogie', cursive;
+@fontFamilyHeadings: 'Pompiere', cursive;
+
+@fontFamilyBody: 'Text Me One', sans-serif;
 @logoText: 'Tangerine', cursive;
 
 
 //@bgColorHtml: #617085;
-@bgColorBody: #DFB293;
+@bgColorBody: #DFB2F3;
 @mainColor:  #20684A;
 @headerColor: #A11C04;
 
@@ -32,7 +38,8 @@ html {
 
 body {
         background-image: url("../../htdocs/img/gren.jpg");
-        background-repeat: no-repeat;
+        background-repeat: repeat-y;
+        background-color: #D8D8D8;
   }
 
 .outer-wrap-flash {
@@ -46,7 +53,7 @@ body {
 .rm-default {
       a {
           font-family: @fontFamilyHeadings;
-          font-size: 1.5em;
+          font-size: 2em;
           padding: 10px;
           padding-top: 15px;
           outline: 0;
@@ -65,6 +72,7 @@ body {
 h1 {
         font-weight: bold;
         border-bottom: 1px solid @bodyTextColor;
+        font-size: 350%;
 }
 
 a {
