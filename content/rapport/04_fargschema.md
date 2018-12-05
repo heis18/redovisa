@@ -67,7 +67,7 @@ Sidan känns väldigt minimalistisk och försöker inte sälja något genom att 
 </tr>
 </table>
 [FIGURE src="image/sanidas.png?w=330" class="left"]
-[FIGURE src="image/sanidas2.png?w=330" class="left"]
+[FIGURE src="image/sanidas2.png?w=330" class="right"]
 
 
 Analys

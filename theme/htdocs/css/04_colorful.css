@@ -5387,6 +5387,13 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-weight: 700;
   src: local('Tangerine Bold'), local('Tangerine-Bold'), url(https://fonts.gstatic.com/s/tangerine/v9/Iurd6Y5j_oScZZow4VO5srNZi5FI.ttf) format('truetype');
 }
+.site-logo-text a {
+  font-family: 'Tangerine', cursive;
+  font-size: 3.2em;
+  color: #9e238b;
+  line-height: 1.5em;
+  text-shadow: 2px -1px 0px #ccc;
+}
 @font-face {
   font-family: 'Comfortaa';
   font-style: normal;
@@ -5450,10 +5457,6 @@ a {
   color: #1c5d68;
 }
 .site-logo-text a {
-  font-family: 'Tangerine', cursive;
-  font-size: 3.2em;
-  color: #9e238b;
-  line-height: 1.5em;
   text-shadow: 2px -1px 0px #F8CCF7;
 }
 .wrap-sidebar .block h4 {
