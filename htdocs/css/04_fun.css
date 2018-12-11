@@ -4757,10 +4757,9 @@ hr::after {
 }
 .region-header-col-1 {
   float: left;
-  width: 11.45833333%;
+  width: 15.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-left: 4.6875%;
   display: inline;
 }
 .region-header-col-2 {
