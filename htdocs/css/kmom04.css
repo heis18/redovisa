@@ -4406,7 +4406,6 @@ h6 img {
 h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
-  font-family: 'Abril Fatface', cursive;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -4426,8 +4425,8 @@ h2 {
   font-size: 1.875em;
   line-height: 1.6;
   font-weight: normal;
-  margin-bottom: 24px;
-  border-bottom: 0 solid #CCC;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4436,8 +4435,8 @@ h3 {
   font-size: 1.75em;
   line-height: 1.71428571;
   font-weight: normal;
-  margin-bottom: 24px;
-  border-bottom: 0 solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4446,8 +4445,8 @@ h4 {
   font-size: 1.5em;
   line-height: 1;
   font-weight: normal;
-  margin-bottom: 24px;
-  border-bottom: 0 solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4455,8 +4454,8 @@ h4 + h5 {
 h5 {
   font-size: 1.25em;
   line-height: 1.2;
-  margin-bottom: 24px;
-  border-bottom: 0 solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4464,8 +4463,8 @@ h5 + h6 {
 h6 {
   font-size: 1.25em;
   line-height: 1.2;
-  margin-bottom: 24px;
-  border-bottom: 0 solid #EEE;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -4959,6 +4958,11 @@ figure.figure.right {
 }
 figure.figure.center {
   clear: both;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 4px;
+  border: solid 0.1px #bfc4cc;
+  padding: 5px;
 }
 figure.figure figcaption p {
   font-style: italic;
@@ -5168,6 +5172,7 @@ figure.figure figcaption p {
 }
 a.rm-button {
   display: inline-block;
+  color: inherit;
   background-color: transparent;
   outline: none;
 }
@@ -5185,7 +5190,7 @@ a.rm-button .rm-button-face-2 {
   transition: color 0.1s ease;
 }
 a.rm-button.rm-clicked {
-  color: #fff;
+  color: #9FB129;
   background-color: transparent;
 }
 a.rm-button.rm-clicked .rm-button-face-1 {
@@ -5198,24 +5203,19 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Standard meny layout, valid for any subtype.
  */
-.rm-default {
-  /*a {
-        display: block;
-        text-decoration: none;
-        white-space: nowrap;
-        padding: 1em;
-        outline: none;
-
-        &:hover {
-        }
-    }*/
-}
 .rm-default li {
   display: inline-block;
 }
 .rm-default li li {
   display: block;
   min-width: 10em;
+}
+.rm-default a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 1em;
+  outline: none;
 }
 .rm-default ul {
   position: absolute;
@@ -5235,10 +5235,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: #a3aab1;
-  padding: 2px;
-  padding-top: 15px;
-  line-height: 1em;
+  background-color: inherit;
 }
 .rm-desktop li {
   position: relative;
@@ -5248,6 +5245,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   text-decoration: underline;
 }
 .rm-desktop li a {
+  color: inherit;
   background-color: inherit;
 }
 .rm-desktop li a:hover {
@@ -5269,6 +5267,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 .rm-mobile {
   width: 100%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
   background-color: #444;
   color: #fff;
 }
@@ -5302,16 +5301,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: absolute;
   top: 16px;
   right: 24px;
-  text-align: left;
 }
 .rm-max .rm-small {
   display: block;
 }
 .rm-max .rm-small .rm-button {
-  color: #fff;
+  color: inherit;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: #fff;
+  color: #9FB129;
   position: fixed;
   top: 16px;
   right: 24px;
@@ -5328,7 +5326,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #45505c;
+  background-color: #131313;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */

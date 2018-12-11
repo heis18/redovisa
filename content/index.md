@@ -20,7 +20,7 @@ Helenas me-sida i kursen design
 ### Ny kurs, nya funderingar!
 
 
-[FIGURE src="image/family-800.jpg?w=400" class="right" caption="Jag med hela familjen!"]
+[FIGURE src="image/family-800.jpg?width=400" class="figure right w40" caption="Jag med hela familjen!"]
 
 Så, vad kan jag berätta om mig själv den här gången? Fortfarande gift, äktenskapet överlevde förra kursen. Barnen växer och har givetvis, åtminstånde den stora, börjat längta ordentligt till jul och sitt första riktiga jullov.
 

@@ -30,7 +30,7 @@
 //@navbarMenuButtonHoverBorderColor:   #333;
 
 // The menu button clicked
-@navbarMenuButtonClickedColor:          #fff;
+@navbarMenuButtonClickedColor:          #9FB129;
 @navbarMenuButtonClickedBgColor:        @navbarMenuButtonHoverBgColor;
 //@navbarMenuButtonClickedBorderColor:    lime;
 
@@ -47,12 +47,10 @@
 // Max menu
 @maxBgColor:                #131313;
 @maxMenuItemClickedBgColor: transparent; //@navbarMenuButtonClickedColor;
-@maxButtonColor:            #fff;
+@maxButtonColor:            inherit;
 @maxButtonClickedColor:     @navbarMenuButtonClickedColor;
 @maxButtonSubmenuBgColor:    #444;
 @maxButtonSubmenuHoverBgColor: #ccc;
-@headerColor: #a3aab1;
-
 
 /**
  * Outer wrapper for menu
@@ -92,7 +90,7 @@
 
 a.rm-button {
     display: inline-block;
-  //  color: @navbarMenuButtonColor;
+    color: @navbarMenuButtonColor;
     background-color: @navbarMenuButtonBgColor;
     outline: none;
 
@@ -152,7 +150,7 @@ a.rm-button {
     }
 
     // The link of the menu item
-    /*a {
+    a {
         display: block;
         text-decoration: none;
         white-space: nowrap;
@@ -161,7 +159,7 @@ a.rm-button {
 
         &:hover {
         }
-    }*/
+    }
 
      // The base for the submenu
      ul {
@@ -194,10 +192,7 @@ a.rm-button {
 .rm-desktop {
 
     ul {
-        background-color: @headerColor;
-        padding: 2px;
-        padding-top: 15px;
-        line-height: 1em;
+        background-color: @submenuBgColor;
     }
 
     li {
@@ -224,7 +219,7 @@ a.rm-button {
 
         // The link of the menu item
         a {
-//            color: @navbarItemColor;
+            color: @navbarItemColor;
             background-color: @navbarItemBgColor;
 
             &:hover {
@@ -266,7 +261,7 @@ a.rm-button {
  */
 .rm-mobile {
     width: 100%;
-//    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
     background-color: @mobileBgColor;
     color: @mobileColor;
 
@@ -328,8 +323,6 @@ a.rm-button {
         position: absolute;
         top: 16px;
         right: 24px;
-        text-align: left;
-
     }
 
     // Show the button menu
@@ -362,11 +355,7 @@ a.rm-button {
         height: 500px;
         overflow-y: auto;
         padding-top: 72px;
-        background-color: #45505c;
-
-        a {
-
-        }
+        background-color: @maxBgColor;
 
 
         /* Color when menu item is clicked */

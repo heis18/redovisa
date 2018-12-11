@@ -79,6 +79,11 @@ return [
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg.",
+        ],
+        [
             "text" => "Test",
             "url" => "test",
             "title" => "Testsida.",
