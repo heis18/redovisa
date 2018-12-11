@@ -1,4 +1,15 @@
 ---
+
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            class: byline
+            meta:
+                type: single
+                route: block/byline
 ---
 Färgschema kmom04
 =========================
@@ -85,8 +96,11 @@ Referenser
 -----------------------
 
 Beaird, Jason, The Principles of Beautiful Web Design, 2014
+
 Cannon, Thomas, An Introduction to Color Theory for Web Designers, 2012
+
 ColorZilla
+
 https://color.adobe.com
 
 

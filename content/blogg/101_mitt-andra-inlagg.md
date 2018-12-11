@@ -27,7 +27,7 @@ Modet hos en 6-åring kan vara stort! {#anchor-hit}
 -----------------------------------
 
 
-[FIGURE img src="image/nyklippt.jpg?width=800" class="right w40" caption="En nyklippt och glad Imoen!"]
+[FIGURE img src="image/nyklippt.jpg?width=800" class="right w40" caption="En nyklippt och glad Imoen!" alt="Nyklippt Imoen"]
 
 
 [FIGURE img src="image/nyklippt.jpg?width=300&height=300&crop-to-fit&area=0,20,50,20" class="right w33"]
