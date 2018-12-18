@@ -1,0 +1,206 @@
+/*!
+ * Stylesheet for designelement kmom06.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "module/stylechooser.less";  // Just an example module
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+//@import "base/base.less";
+@import "base/base-03.less";
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid06.less";
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+//import "layout/layout.less";
+//@import "layout/layout02.less";
+//@import "module/typo02.less";
+
+//@import "layout/regions.less";     // To add style for ?regions
+@import "layout/responsive-03.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+
+ /**
+  * Figure and figcaption for images and other media using figure/figcaption
+  */
+ @import "@desinax/figure/less/asciinema.less";
+ @import "@desinax/figure/less/codepen.less";
+ @import "@desinax/figure/less/figure.less";
+
+
+ // Enable style from the module and optinally add customized layout
+ figure.figure {
+     #desinax-figure.figure();
+ }
+ figure.asciinema {
+     &:extend(figure.figure);
+     #desinax-figure.asciinema();
+ }
+
+ figure.codepen,
+ figure.figure-codepen {
+     &:extend(figure.figure);
+     #desinax-figure.codepen();
+ }
+
+ @bodyTextColor: #f2f2ef;
+
+ body {
+         background-image: url("../../htdocs/img/julgran.jpg");
+         color: @bodyTextColor;
+         // background-repeat: repeat-y;
+         // background-color: #D8D8D8;
+}
+
+.outer-wrap-flash {
+        background-image: url("../../htdocs/img/snowman.jpg");
+  }
+
+  h1 {
+          font-weight: bold;
+          border-bottom: 1px solid @bodyTextColor;
+          font-size: 350%;
+  }
+
+@import "module/typo06.less";
+
+@import url('https://fonts.googleapis.com/css?family=Akronim|Arizonia|Griffy|Montez|Parisienne|Pompiere|Ruge+Boogie|Sacramento|Text+Me+One');
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Maven+Pro:400,500,700,900|Text+Me+One');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+
+@logoText: 'Tangerine', cursive;
+
+ .site-logo-text a {
+         font-family: @logoText;
+         font-size: 2.8em;
+         color: #9e238b;
+         line-height: 1.5em;
+         text-shadow: 2px -1px 0px #ccc;
+         padding-left: 20px;
+ }
+
+ .symmetri-left {
+       border: solid 2px #fff;
+       border-radius: 25px;
+ }
+
+ .symmetri-right {
+       border: solid 2px #fff;
+       border-radius: 25px;
+ }
+
+ .region-main {
+       border: solid 2px #fff;
+       border-radius: 25px;
+ }
+
+ .rm-default {
+       a {
+           font-size: 1.4em;
+           padding: 10px;
+}
+}
+
+.princip {
+    border-bottom: 9px dotted @footerBorder;
+}
+
+.figure {
+    transform:skew(5deg);
+    border-radius: 25px;
+}
+
+figure.figure.right {
+    margin: 20px;
+}
+figure.figure.left {
+    margin: 20px;
+}
+
+h4 {
+    color: @bodyTextColor;
+    text-decoration: none;
+      a {
+        color: @bodyTextColor;
+        text-decoration: none;
+      }
+}
+
+.toc {
+    list-style: hiragana;
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+
+@fontFamilyBody: 'Nunito Sans', arial, sans-serif;
+@fontFamilyHeadings-1: 'Ruge Boogie', cursive;
+@fontFamilyHeadings: 'Pompiere', cursive;
+
+@mainColor:  rgba(32, 104, 74, 0.7);
+@headerColor: #A11C04;
+@footerColor: rgba(161, 28, 4, 0.8);;
+@elementColor: #A11C04;
+
+@headerTextColor: #f2f2ef;
+@footerTextColor: #f2f2ef;
+@linkColor: #b1b9c9;
+
+@footerBorder: #b1b9c9;
+@figureBorderColor: #b1b9c9;
+
+@navbarMenuButtonClickedColor: #fff;
+@maxButtonColor: #fff;

@@ -1,0 +1,126 @@
+
+@fontFamilyHeadings-1: 'Abril Fatface', cursive;
+@headerTextColor: #fff;
+@headerColor: #a3aab1;
+@navbarMenuButtonClickedColor: #fff;
+@maxButtonColor: #fff;
+@headerColor: #a3aab1;
+@footerColor:#45505c;
+@footerBorder: #F0F0F0;
+@linkColor: #F0F0F0;
+
+//@navbarMenuButtonColor; #fff;
+//@navbarItemColor; #fff;
+
+@borderSizeH2: 0;
+@borderSizeH3: 0;
+@borderSizeH4: 0;
+@borderSizeH5: 0;
+@borderSizeH6: 0;
+
+
+
+h1 {
+    font-family: @fontFamilyHeadings-1;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid @footerBorder;
+    margin-bottom: (@magicNumber * 2);
+}
+
+a {
+    color: @linkColor;
+}
+
+h1 a {
+    color: @linkColor;
+    text-align: left;
+}
+
+.rm-default {
+      a {
+          font-family: @fontFamilyHeadings;
+          font-size: 1.2em;
+          padding: 8px;
+          padding-top: 15px;
+          outline: 0;
+          color: @headerTextColor;
+          box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+
+        }
+        .hover {
+          background-color: @headerColor;
+        }
+}
+
+
+.rm-desktop li a {
+  //      background-color: @headerColor;
+        color: @headerTextColor;
+        .hover {
+          background-color: @headerColor;
+        }
+}
+
+.toc {
+        a {
+          font-size: @fontSizeH5;
+          line-height: 2.4em;
+          font-family: @fontFamilyHeadings;
+          color: @linkColor;
+          }
+}
+
+.rm-desktop {
+    ul {
+            background-color: @headerColor;
+            padding: 2px;
+            padding-top: 15px;
+            line-height: 1em;
+       }
+}
+
+.rm-max .rm-mobile .rm-submenu-button .rm-submenu-button {
+    background-color: @footerColor;
+}
+
+.rm-max .rm-mobile {
+          background-color: @headerColor;
+          width: 100%;
+          box-shadow: none;
+              a {
+                text-align: left;
+              }
+              a.rm-button {
+                text-align: left;
+        }
+}
+
+.outer-wrap-footer {
+    background-color: @footerColor;
+}
+
+figure.figure figcaption {
+    display: inline-block;
+}
+
+code {
+    background-color: #362b51;
+}
+
+.previous a {
+    color: @linkColor;
+
+}
+.next-previous .next a {
+    color: @linkColor;
+}
+
+.breadcrumb-list a {
+    color: @linkColor;
+}
+
+.wrap-sidebar .block h4{
+    border-top:1px solid #ccc;
+    background-image:linear-gradient(to right,#35143f,#ccc);
+}

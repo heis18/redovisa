@@ -179,7 +179,7 @@
 
 .wrap-sidebar .block h4{
     border-top:1px solid #ccc;
-    background-image:linear-gradient(to right,#fff,#ccc);
+    background-image:linear-gradient(to left,#fff,#1d1414);
 }
 
 .inner-wrap-columns-above{
@@ -198,6 +198,7 @@
       margin-top: @magicNumber;
       margin-bottom: @magicNumber;
       box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.3);
+      overflow: auto;
 
         &.has-sidebar {
           #desinax-vgrid.column (@columns * 3 / 4);
@@ -270,6 +271,28 @@
     box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.3);
 }
 
+.princip {
+    #desinax-vgrid.column (22);
+    #desinax-vgrid.push (1);
+//    min-height: 30em;
+    border-bottom: 3px solid @footerBorder;
+    margin-top: (@magicNumber * 1);
+    margin-bottom: (@magicNumber * 1);
+    padding-bottom: (@magicNumber * 1);
+    height:auto;
+    clear: both;
+}
+.princip-last {
+    #desinax-vgrid.column (22);
+    #desinax-vgrid.push (1);
+//    min-height: 30em;
+    margin-top: (@magicNumber * 1);
+    margin-bottom: (@magicNumber * 1);
+    padding-bottom: (@magicNumber * 1);
+    height:auto;
+    clear: both;
+}
+
 // .divider {
 //     hight: 5px;
 //     border: 1px solid #666;
@@ -279,20 +302,18 @@
 
 figure.figure.left{
     float:left;
-    margin-right:15px;
-    margin-top: 4px;
+    margin: 4px;
+    margin-right: 25px;
     border: solid 0.1px @figureBorderColor;
     padding: 5px;
-    margin-left: 5px;
 }
 
 figure.figure.right{
     float:right;
-    margin-left: 15px;
-    margin-top: 4px;
+    margin: 4px;
+    margin-left: 25px;
     border: solid 0.1px @figureBorderColor;
     padding: 5px;
-    margin-right: 5px;
 }
 
 figure.figure.center{

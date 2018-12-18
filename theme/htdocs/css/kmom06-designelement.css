@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom05.
+ * Stylesheet for designelement kmom06.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
@@ -4863,7 +4863,7 @@ hr::after {
 }
 .wrap-sidebar .block h4 {
   border-top: 1px solid #ccc;
-  background-image: linear-gradient(to right, #fff, #ccc);
+  background-image: linear-gradient(to left, #fff, #1d1414);
 }
 .region-main {
   display: inline;
@@ -4876,6 +4876,7 @@ hr::after {
   margin-top: 24px;
   margin-bottom: 24px;
   box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.3);
+  overflow: auto;
 }
 .region-main.has-sidebar {
   display: inline;
@@ -4968,21 +4969,46 @@ hr::after {
   background-color: #999CA3;
   box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.3);
 }
+.princip {
+  display: inline;
+  float: left;
+  width: 90.625%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+  border-bottom: 3px solid #F0F0F0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  height: auto;
+  clear: both;
+}
+.princip-last {
+  display: inline;
+  float: left;
+  width: 90.625%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  height: auto;
+  clear: both;
+}
 figure.figure.left {
   float: left;
-  margin-right: 15px;
-  margin-top: 4px;
+  margin: 4px;
+  margin-right: 25px;
   border: solid 0.1px #bfc4cc;
   padding: 5px;
-  margin-left: 5px;
 }
 figure.figure.right {
   float: right;
-  margin-left: 15px;
-  margin-top: 4px;
+  margin: 4px;
+  margin-left: 25px;
   border: solid 0.1px #bfc4cc;
   padding: 5px;
-  margin-right: 5px;
 }
 figure.figure.center {
   clear: both;

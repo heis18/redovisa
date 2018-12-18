@@ -1,31 +1,38 @@
 ---
-title: "Min fina titel"
-
-views:
-    byline:
-        region: main
-        template: anax/v2/block/default
-        sort: 2
-        data:
-            class: byline
-            meta:
-                type: single
-                route: block/byline
 
 ---
 
-Helenas me-sida i kursen design
+Hos Isåfjälls Design kan ni finna:
 =========================
 
-### Ny kurs, nya funderingar!
+
+<div class="princip">
+[FIGURE src="image/family-800.jpg?w=400&h=300&crop-to-fit&area=0,0,25,0" class="right w40"]
+
+<a href="index"><h4> Bakgrund </h4></a>
+Vem är jag som skapat denna sida? Alla har vi någonting att dela med oss om, även jag hoppas jag. Välkomna in och läs min berättelse!
+</div>
 
 
-[FIGURE src="image/family-800.jpg?width=400" class="figure right w40" caption="Jag med hela familjen!"]
+<div class="princip">
+[FIGURE src="image/funas1.png?w=400&h=300&crop-to-fit" class="left w40"]
 
-Så, vad kan jag berätta om mig själv den här gången? Fortfarande gift, äktenskapet överlevde förra kursen. Barnen växer och har givetvis, åtminstånde den stora, börjat längta ordentligt till jul och sitt första riktiga jullov.
+<a href="rapport"><h4> Rapporter </h4></a>
+Rapporter jag skapat kan ni hitta här. Spännande läsning för den intresserade, alltid kan man lära sig något nytt!
+</div>
 
-Då min värld och mina intressen ser ut som de gör, så känner jag i nuläget att jag ser fram mycket emot en kurs som ska ha inriktningen Design. Jag har så länge jag kan minnas varit intresserad av pyssel, färg, konstnärliga uttryck av olika former. Jag startade min bana redan som fem-sexåring med att designa mina egna klippdockor, prinsessarme av toarullar och sedan har det bara fortsatt på den banan. Gillar konstnärliga uttryck både skapade för hand och digitalt.
 
- Jag kom under min gymnasietid fram till att jag ville satsa på en karriär som bildlärare och läste till detta i början på 2000-talet. Ett beslut jag nu börjat ompröva, då skolans värld ibland kan vara väldigt påfrestande. Jag trivs väldigt bra med mitt arbete och se elever utvecklas i sitt skapande, men känner att jag samtidigt behöver utveckla mig själv med. Min man är programmerare, så efter 17 år tillsammans har jag börjat känna att jag vill prova liknande bana, men med mer dragning åt designhållet än honom (han har minimal designkänsla koden prio ett ;) )!
+<div class="princip">
+[FIGURE src="image/gren.jpg?w=400&h=300&crop-to-fit" class="right w40"]
 
- Övriga fritidsintressen är det skralt med, barnen äger tillvaron. Jobb, studier och barn fyller dagarna så det räcker till och blir över!
+<a href="redovisning"><h4> Redovisningar </h4></a>
+Så, vad har jag egentligen sysslat med under de senaste veckorna. Allt detta och lite till kan ni läsa om på dessa sidor!
+</div>
+
+
+<div class="princip-last">
+[FIGURE src="image/morgonmys.jpg?w=400&h=300&crop-to-fit" class="left w40"]
+
+<a href="blogg"><h4> Blogg </h4></a>
+Och vad som händer på det personliga planet, det lilla man hinner med vid sidan om studier och jobb, hittar vi allt om på min blogg. Här finner ni även en mängd vackra bilder!
+</div>
