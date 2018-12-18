@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04.
+ * Stylesheet for design kmom05.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
@@ -4379,8 +4379,8 @@ html {
   overflow-y: scroll;
 }
 body {
-  background-color: #DFB2F3;
-  font: 16px/1.5 'Text Me One', sans-serif;
+  background-color: #f1f1f1;
+  font: 16px/1.5 'Nunito Sans', arial, sans-serif;
 }
 img {
   max-width: 100%;
@@ -4391,7 +4391,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Pompiere', cursive;
+  font-family: 'Cinzel', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4425,8 +4425,8 @@ h2 {
   font-size: 1.875em;
   line-height: 1.6;
   font-weight: normal;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #CCC;
+  margin-bottom: 24px;
+  border-bottom: 0 solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4435,8 +4435,8 @@ h3 {
   font-size: 1.75em;
   line-height: 1.71428571;
   font-weight: normal;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 24px;
+  border-bottom: 0 solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4445,8 +4445,8 @@ h4 {
   font-size: 1.5em;
   line-height: 1;
   font-weight: normal;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 24px;
+  border-bottom: 0 solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4454,8 +4454,8 @@ h4 + h5 {
 h5 {
   font-size: 1.25em;
   line-height: 1.2;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 24px;
+  border-bottom: 0 solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4463,8 +4463,8 @@ h5 + h6 {
 h6 {
   font-size: 1.25em;
   line-height: 1.2;
-  margin-bottom: 23px;
-  border-bottom: 1px solid #EEE;
+  margin-bottom: 24px;
+  border-bottom: 0 solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -4751,7 +4751,7 @@ hr::after {
   }
 }
 .outer-wrap-header {
-  background-color: #A11C04;
+  background-color: #5A5769;
   padding-top: 1em;
   padding-bottom: 0.5em;
 }
@@ -4778,10 +4778,10 @@ hr::after {
 }
 .outer-wrap-flash {
   background-image: url("../../htdocs/img/huvud-2000.jpg");
-  background-color: #A11C04;
+  background-color: #5A5769;
   min-height: 300px;
   background-repeat: no-repeat;
-  border-bottom: 10px solid #A11C04;
+  border-bottom: 10px solid #5A5769;
 }
 .site-logo-text a {
   font-family: 'Tangerine', cursive;
@@ -4845,7 +4845,7 @@ hr::after {
   display: block;
   text-decoration: none;
   white-space: nowrap;
-  font-family: 'Pompiere', cursive;
+  font-family: 'Cinzel', serif;
   font-size: 2em;
   padding: 15px;
   outline: 0;
@@ -4871,10 +4871,11 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #20684A;
+  background-color: #6C686C;
   padding: 10px;
   margin-top: 24px;
   margin-bottom: 24px;
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.3);
 }
 .region-main.has-sidebar {
   display: inline;
@@ -4912,7 +4913,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   display: inline;
-  background-color: #20684A;
+  background-color: #6C686C;
   padding: 5px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -4939,11 +4940,39 @@ hr::after {
   line-height: 2.4em;
   text-decoration: none;
 }
+.symmetri-left {
+  display: inline;
+  float: left;
+  width: 45.83333333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 2.60416667%;
+  min-height: 40em;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  padding: 25px;
+  background-color: #999CA3;
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.3);
+}
+.symmetri-right {
+  display: inline;
+  float: left;
+  width: 45.83333333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 2.60416667%;
+  min-height: 40em;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  padding: 25px;
+  background-color: #999CA3;
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.3);
+}
 figure.figure.left {
   float: left;
   margin-right: 15px;
   margin-top: 4px;
-  border: solid 0.1px #b1b9c9;
+  border: solid 0.1px #bfc4cc;
   padding: 5px;
   margin-left: 5px;
 }
@@ -4951,7 +4980,7 @@ figure.figure.right {
   float: right;
   margin-left: 15px;
   margin-top: 4px;
-  border: solid 0.1px #b1b9c9;
+  border: solid 0.1px #bfc4cc;
   padding: 5px;
   margin-right: 5px;
 }
@@ -4960,7 +4989,7 @@ figure.figure.center {
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 4px;
-  border: solid 0.1px #b1b9c9;
+  border: solid 0.1px #bfc4cc;
   padding: 5px;
 }
 figure.figure figcaption p {
@@ -4977,7 +5006,7 @@ figure.figure figcaption p {
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
   margin-right: 10%;
-  border: solid 1.5px #b1b9c9;
+  border: solid 1.5px #bfc4cc;
   margin-top: 48px;
   margin-bottom: 48px;
   clear: both;
@@ -4993,7 +5022,10 @@ figure.figure figcaption p {
   display: inline;
 }
 .outer-wrap-footer {
-  background-color: #45505c;
+  background-color: #3E4353;
+}
+.inner-wrap-footer {
+  padding-top: 48px;
 }
 .footer-column-wrapper::after {
   content: "";
@@ -5012,8 +5044,8 @@ figure.figure figcaption p {
   height: 100%;
 }
 .footer-column-wrapper {
-  color: #f2f2ef;
-  border-bottom: 1px solid #b1b9c9;
+  color: #F0F0F0;
+  border-bottom: 1px solid #F0F0F0;
 }
 .footer-column-wrapper ul {
   list-style: none;
@@ -5023,7 +5055,7 @@ figure.figure figcaption p {
 }
 .footer-column-1,
 .footer-column-2 {
-  border-right: 1px solid #b1b9c9;
+  border-right: 1px solid #F0F0F0;
 }
 .site-footer {
   display: inline;
@@ -5031,7 +5063,7 @@ figure.figure figcaption p {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  color: #f2f2ef;
+  color: #F0F0F0;
   text-align: center;
 }
 .site-footer ul {
@@ -5189,7 +5221,7 @@ a.rm-button .rm-button-face-2 {
   transition: color 0.1s ease;
 }
 a.rm-button.rm-clicked {
-  color: #9FB129;
+  color: #fff;
   background-color: transparent;
 }
 a.rm-button.rm-clicked .rm-button-face-1 {
@@ -5305,10 +5337,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
 }
 .rm-max .rm-small .rm-button {
-  color: inherit;
+  color: #fff;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: #9FB129;
+  color: #fff;
   position: fixed;
   top: 16px;
   right: 24px;
@@ -5370,8 +5402,206 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * My own settings, not currently in their own module.
+  * Figure and figcaption for images and other media using figure/figcaption
+  */
+/**
+ * Figure with ASCIINEMA
  */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+body {
+  background-image: url("../../htdocs/img/background_texture.jpg");
+  color: #F0F0F0;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #F0F0F0;
+}
+.rm-default a {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2em;
+  padding: 8px;
+  padding-top: 15px;
+  outline: 0;
+  color: #F0F0F0;
+  box-shadow: 0 0 25px 0px rgba(0, 0, 0, 0.15);
+}
+.rm-default .hover {
+  background-color: #5A5769;
+}
+.rm-desktop li a {
+  background-color: #5A5769;
+  color: #F0F0F0;
+}
+.rm-desktop li a .hover {
+  background-color: #5A5769;
+}
+.toc a {
+  font-size: 1.25em;
+  line-height: 2.4em;
+  font-family: 'Cinzel', serif;
+  color: #EDE3DA;
+}
+.rm-desktop ul {
+  background-color: #5A5769;
+  padding: 2px;
+  padding-top: 15px;
+  line-height: 1em;
+}
+.rm-max .rm-mobile .rm-submenu-button .rm-submenu-button {
+  background-color: #3E4353;
+}
+.rm-max .rm-mobile {
+  background-color: #5A5769;
+  width: 100%;
+  box-shadow: none;
+}
+.rm-max .rm-mobile a {
+  text-align: left;
+}
+.rm-max .rm-mobile a.rm-button {
+  text-align: left;
+}
+.outer-wrap-footer {
+  background-color: #3E4353;
+}
+figure.figure figcaption {
+  display: inline-block;
+}
+code {
+  background-color: #3e3232;
+}
+.previous a {
+  color: #EDE3DA;
+}
+.next-previous .next a {
+  color: #EDE3DA;
+}
+.breadcrumb-list a {
+  color: #EDE3DA;
+}
 @font-face {
   font-family: 'Tangerine';
   font-style: normal;
@@ -5384,60 +5614,47 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-weight: 700;
   src: local('Tangerine Bold'), local('Tangerine-Bold'), url(https://fonts.gstatic.com/s/tangerine/v9/Iurd6Y5j_oScZZow4VO5srNZi5FI.ttf) format('truetype');
 }
-.site-logo-text a {
-  font-family: 'Tangerine', cursive;
-  font-size: 3.2em;
-  color: #9e238b;
-  line-height: 1.5em;
-  text-shadow: 2px -1px 0px #ccc;
-}
 @font-face {
-  font-family: 'Akronim';
+  font-family: 'Cinzel';
   font-style: normal;
   font-weight: 400;
-  src: local('Akronim Regular'), local('Akronim-Regular'), url(https://fonts.gstatic.com/s/akronim/v8/fdN-9sqWtWZZlHRpygd7lA.ttf) format('truetype');
+  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v7/8vIJ7ww63mVu7gt79mT-.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Arizonia';
+  font-family: 'Cinzel';
   font-style: normal;
-  font-weight: 400;
-  src: local('Arizonia Regular'), local('Arizonia-Regular'), url(https://fonts.gstatic.com/s/arizonia/v8/neIIzCemt4A5qa7mv5WBFqk.ttf) format('truetype');
+  font-weight: 700;
+  src: local('Cinzel Bold'), local('Cinzel-Bold'), url(https://fonts.gstatic.com/s/cinzel/v7/8vIK7ww63mVu7gtzTUHuE2Zf.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Griffy';
+  font-family: 'Cinzel';
   font-style: normal;
-  font-weight: 400;
-  src: local('Griffy'), local('Griffy-Regular'), url(https://fonts.gstatic.com/s/griffy/v7/FwZa7-ox2FQh9kfAT96A.ttf) format('truetype');
+  font-weight: 900;
+  src: local('Cinzel Black'), local('Cinzel-Black'), url(https://fonts.gstatic.com/s/cinzel/v7/8vIK7ww63mVu7gtzdUPuE2Zf.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Montez';
+  font-family: 'Maven Pro';
   font-style: normal;
   font-weight: 400;
-  src: local('Montez Regular'), local('Montez-Regular'), url(https://fonts.gstatic.com/s/montez/v8/845ZNMk5GoGIX8lW07ra.ttf) format('truetype');
+  src: local('Maven Pro Regular'), local('MavenPro-Regular'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au9p_AqnyWWAxW2Wk3GzWQN.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Parisienne';
+  font-family: 'Maven Pro';
   font-style: normal;
-  font-weight: 400;
-  src: local('Parisienne'), local('Parisienne-Regular'), url(https://fonts.gstatic.com/s/parisienne/v5/E21i_d3kivvAkxhLEVZpQyhwCg.ttf) format('truetype');
+  font-weight: 500;
+  src: local('Maven Pro Medium'), local('MavenPro-Medium'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au4p_AqnyWWAxW2Wk3OPkcdP3kG.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Pompiere';
+  font-family: 'Maven Pro';
   font-style: normal;
-  font-weight: 400;
-  src: local('Pompiere '), local('Pompiere-Regular'), url(https://fonts.gstatic.com/s/pompiere/v7/VEMyRoxis5Dwuyeov5Wq7DQ.ttf) format('truetype');
+  font-weight: 700;
+  src: local('Maven Pro Bold'), local('MavenPro-Bold'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au4p_AqnyWWAxW2Wk3OdkEdP3kG.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Ruge Boogie';
+  font-family: 'Maven Pro';
   font-style: normal;
-  font-weight: 400;
-  src: local('Ruge Boogie'), local('RugeBoogie-Regular'), url(https://fonts.gstatic.com/s/rugeboogie/v9/JIA3UVFwbHRF_GIWSMhKNSOlNTE.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Sacramento';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Sacramento'), local('Sacramento-Regular'), url(https://fonts.gstatic.com/s/sacramento/v5/buEzpo6gcdjy0EiZMBUG4C0f-A.ttf) format('truetype');
+  font-weight: 900;
+  src: local('Maven Pro Black'), local('MavenPro-Black'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au4p_AqnyWWAxW2Wk3OTkMdP3kG.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Text Me One';
@@ -5445,57 +5662,137 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-weight: 400;
   src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v6/i7dOIFdlayuLUvgoFvHQFVZbYFI.ttf) format('truetype');
 }
-html {
-  color: #f2f2ef;
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Dosis ExtraLight'), local('Dosis-ExtraLight'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzGnKuCFMI4.ttf) format('truetype');
 }
-body {
-  background-image: url("../../htdocs/img/gren.jpg");
-  background-repeat: repeat-y;
-  background-color: #D8D8D8;
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dosis Light'), local('Dosis-Light'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzHDKeCFMI4.ttf) format('truetype');
 }
-.outer-wrap-flash {
-  background-image: url("../../htdocs/img/snowman.jpg");
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v7/HhyaU5sn9vOmLzloC_A.ttf) format('truetype');
 }
-.rm-default a {
-  font-family: 'Pompiere', cursive;
-  font-size: 2em;
-  padding: 10px;
-  padding-top: 15px;
-  outline: 0;
-  color: #f2f2ef;
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Dosis Medium'), local('Dosis-Medium'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzGbKOCFMI4.ttf) format('truetype');
 }
-.toc a {
-  font-size: 1.25em;
-  line-height: 2.4em;
-  color: #f2f2ef;
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Dosis SemiBold'), local('Dosis-SemiBold'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzG3L-CFMI4.ttf) format('truetype');
 }
-h1 {
-  font-weight: bold;
-  border-bottom: 1px solid #f2f2ef;
-  font-size: 350%;
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dosis Bold'), local('Dosis-Bold'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzHTLuCFMI4.ttf) format('truetype');
 }
-a {
-  color: #b1b9c9;
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Dosis ExtraBold'), local('Dosis-ExtraBold'), url(https://fonts.gstatic.com/s/dosis/v7/HhyXU5sn9vOmLzHPLeCFMI4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Nunito Sans ExtraLight Italic'), local('NunitoSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe01MImSLYBIv1o4X1M8cce4GxZrY1MIVw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Nunito Sans Light Italic'), local('NunitoSans-LightItalic'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe01MImSLYBIv1o4X1M8cce4G3JoY1MIVw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Nunito Sans Italic'), local('NunitoSans-Italic'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe0oMImSLYBIv1o4X1M8cce4E9lKcw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Nunito Sans SemiBold Italic'), local('NunitoSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe01MImSLYBIv1o4X1M8cce4GwZuY1MIVw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Nunito Sans Bold Italic'), local('NunitoSans-BoldItalic'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe01MImSLYBIv1o4X1M8cce4G2JvY1MIVw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Nunito Sans ExtraBold Italic'), local('NunitoSans-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe01MImSLYBIv1o4X1M8cce4G35sY1MIVw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Nunito Sans Black Italic'), local('NunitoSans-BlackItalic'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe01MImSLYBIv1o4X1M8cce4G1ptY1MIVw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Nunito Sans ExtraLight'), local('NunitoSans-ExtraLight'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe03MImSLYBIv1o4X1M8cc9yAs5tU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nunito Sans Light'), local('NunitoSans-Light'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe03MImSLYBIv1o4X1M8cc8WAc5tU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe0qMImSLYBIv1o4X1M8cce9I94.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe03MImSLYBIv1o4X1M8cc9iB85tU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito Sans Bold'), local('NunitoSans-Bold'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe03MImSLYBIv1o4X1M8cc8GBs5tU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Nunito Sans ExtraBold'), local('NunitoSans-ExtraBold'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe03MImSLYBIv1o4X1M8cc8aBc5tU1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Nunito Sans Black'), local('NunitoSans-Black'), url(https://fonts.gstatic.com/s/nunitosans/v3/pe03MImSLYBIv1o4X1M8cc8-BM5tU1Q.ttf) format('truetype');
 }
 .site-logo-text a {
-  text-shadow: 2px -1px 0px #f2f2ef;
-}
-.wrap-sidebar .block h4 {
-  border-top: 1px solid #b1b9c9;
-  background-image: none;
-  background-color: #A11C04;
-}
-.outer-wrap-footer {
-  background-color: #A11C04;
-}
-.rm-max .rm-mobile {
-  padding-top: 72px;
-  background-color: #A11C04;
-}
-.rm-max .rm-mobile .rm-submenu-button {
-  box-shadow: 0 0 1px #b1b9c9;
-  background-color: #20684A;
-}
-code {
-  background-color: transparent;
+  font-family: 'Tangerine', cursive;
+  font-size: 2.8em;
+  color: #9e238b;
+  line-height: 1.5em;
+  text-shadow: 2px -1px 0px #ccc;
+  padding-left: 20px;
 }

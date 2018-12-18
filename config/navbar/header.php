@@ -84,6 +84,16 @@ return [
             "title" => "Blogg.",
         ],
         [
+            "text" => "Designelement",
+            "url" => "designelement",
+            "title" => "Designelement.",
+        ],
+        [
+            "text" => "Designprinciper",
+            "url" => "designprinciper",
+            "title" => "Designprinciper.",
+        ],
+        [
             "text" => "Test",
             "url" => "test",
             "title" => "Testsida.",

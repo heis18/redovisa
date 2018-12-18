@@ -5395,7 +5395,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-family: 'Akronim';
   font-style: normal;
   font-weight: 400;
-  src: local('Akronim Regular'), local('Akronim-Regular'), url(https://fonts.gstatic.com/s/akronim/v7/fdN-9sqWtWZZlHRpygd7lA.ttf) format('truetype');
+  src: local('Akronim Regular'), local('Akronim-Regular'), url(https://fonts.gstatic.com/s/akronim/v8/fdN-9sqWtWZZlHRpygd7lA.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Arizonia';
@@ -5407,7 +5407,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-family: 'Griffy';
   font-style: normal;
   font-weight: 400;
-  src: local('Griffy'), local('Griffy-Regular'), url(https://fonts.gstatic.com/s/griffy/v6/FwZa7-ox2FQh9kfAT96A.ttf) format('truetype');
+  src: local('Griffy'), local('Griffy-Regular'), url(https://fonts.gstatic.com/s/griffy/v7/FwZa7-ox2FQh9kfAT96A.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Montez';
@@ -5443,7 +5443,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   font-family: 'Text Me One';
   font-style: normal;
   font-weight: 400;
-  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v5/i7dOIFdlayuLUvgoFvHQFVZbYFI.ttf) format('truetype');
+  src: local('Text Me One'), local('TextMeOne-Regular'), url(https://fonts.gstatic.com/s/textmeone/v6/i7dOIFdlayuLUvgoFvHQFVZbYFI.ttf) format('truetype');
 }
 html {
   color: #f2f2ef;
