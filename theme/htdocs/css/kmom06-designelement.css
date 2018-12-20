@@ -5822,3 +5822,11 @@ code {
   text-shadow: 2px -1px 0px #ccc;
   padding-left: 20px;
 }
+h4 {
+  color: #F0F0F0;
+  text-decoration: none;
+}
+h4 a {
+  color: #F0F0F0;
+  text-decoration: none;
+}

@@ -15,89 +15,24 @@ views:
 Designprinciper 08
 =========================
 
-Jag har i denna uppgift jämfört tre olika hemsidor, där jag undersökt
-
-sidornas laddningstid. Denna undersökning görs både i förhållande till mobil enhet och till en dator.
-
-
-Urval
+Tema Designprinciper
 -----------------------
+Till mitt andra tema för veckan valde jag ut balans och harmoni som mina ledord. För att få detta team så olikt det andra blev just färgharmoni min huvudsakliga utgångspunkt. Jag ville prova att arbeta med färger ännu mer än tidigare, men nu med helt annat upplägg. Som grundfärg på min sida valde jag denna gång olika nyanser av lila. Detta gjorde jag till stor del av två orsaker. Den ena delen är att jag är väldigt förtjust i lila, jag tycker att det passar till mycket, är en unisex färg och oerhört användbar. Den andra delen, som mest gör det hela lite roligt, är att vi i boken ”The principles of Beautiful Web Design” kunde läsa att författaren beskrev färgen lila som en ovanlig färg att finna på webbplatser, och om man ville sticka ut från mängden så skulle man väja lila till sin sida – så det passade ju mig väldigt bra! Andra källor jag tagit hjälp av i temat är pdf:en ”Visual Literacy – Design Principles”, webbplatsen ”Design Elements & Principles”
 
-Jag har valt sidorna <a href="https://www.funasfjallen.se">Funäsfjällen</a>, <a href="http://www.skanesdjurpark.se">Skånesdjurpark</a> och <a href="https://www.liseberg.se/">Liseberg</a>
+Även till detta tema valde jag att göra en ny undersida ”Designprinciper”, där jag kunde leka med lite nya idéer på upplägg. Även denna gång byggde jag sidan som en alternativ startsida. Jag skissade en hel del för hand till detta tema med, innan jag började arbeta med sidan i datorn. Detta gör tycker jag att jag snabbare kommer framåt när jag väl sitter med webbsidan, då mycket av det förberedande tankearbetet redan är klart, och nu ska det bara utföras också.
 
-Jag gjorde mitt urval efter att ha bestämt mig för att välja tre sidor med liknande upplägg och tema, dvs någon form av turistattraktion. Jag startade mitt urval även denna gång till viss del efter minan intressen. Samtliga sidor är ganska bildtunga, vilket jag även tyckte kunde vara intressant att analysera.
+Då balans var en av mina principer ville jag arbeta med en sida som inte var symmetrisk som den förra, men ändå med element som var jämt fördelat över sidan, valde jag att arbeta med text och bilder i ”sick-sack” kan man säga. Mellan varje bild med tillhörande rubrik och text valde jag att lägga in en linje som tydlig avgränsare. Hela sidan, bortsett från bilderna, är i princip helt uppbyggs med lila toner med en ljus nästan vit font. Jag provade mig fram en hel del i Adobe Color cc för att få rätt nyanser att matcha harmoniskt mot varandra. Här stötte jag dock på ett ganska intressant problem. Efter att ha gjort min första ”publish” för temat, för att testa på en annan dator hur det såg ut – insåg jag att det var otroligt olika färgåtergivning på de båda olika skärmarna. Detta resulterade i att de nyanser jag upplevs väldigt behagliga på datorn när jag arbetade, såg nu nästan skrikiga ut, inte alls i närheten av min vision. Bara att börja prova sig fram på nytt för att hitta ett lämpligt mellanting.
 
+Bortsett från min extrasida till temat, har jag försökt arbeta mig runt på min sida så att även de övriga sidorna ska passa in på ett balanserat och harmoniskt sätt till mina nya färger mm. Jag upplever själv att jag fått till en intressant sida i förhållande till mina ledord, men kan även tänka mig att den blivit ganska så personlig. Tycker man inte om lila som färg, kan den nog upplevas måttligt harmonisk.
 
-Metod
------------------------
-
-
-Resultat
------------------------
-
-<a href="https://www.funasfjallen.se">Funäsfjällen</a>
-
-[FIGURE src="image/funasfjall.png?w=700" class="center" alt="Funäsfjällen"]
-<br>
-
-Funäsdalens sida fick i mätningen mot mobil en poäng från Google Pagespeed på 22 och en tid till första meningsfulla skärmuppritning på 4.2 sek. Mot en dator var poängen betydligt högre, ca 92 och tiden för en första meningsfulla skärmuppritning låg på 1,2 sek.
-
-Enligt devtools hade sidan ca 94 förfrågningar (varierade något mellan olika inladdningar), storleken på sidan var på drygt 12 mb och tog 6,23 sek att slutföra inladdningen på.
-En av de främsta rekommendationerna från Google Pagespeed för att förbättra sidan, både för mobil och dator var att skicka bilderna i modernare bildformat. Även att sidan skulle kunna skjuta upp inladdningen av bilder som inte visades på skärmen. En annan bildrekommendatin var att använda bilder med rätt storlek.
-
-<br>
-<a href="http://www.skanesdjurpark.se">Skånesdjurpark</a>
-
-[FIGURE src="image/skanesdjurpark.png?w=700" class="center" alt="Skånes djurpark"]
-<br>
-
-
-Skånes djurparks sida fick i mätningen mot mobil en oerhört låg poäng från Google Pagespeed på 3 och en tid till första meningsfulla skärmuppritning på 8,7 sek. Mot en dator var poängen ca 79 och för en första meningsfulla skärmuppritning låg tiden på 2,3 sek.
-Enligt devtools hade sidan ca 95 förfrågningar (även här varierade det något mellan olika inladdningar), storleken på sidan var på ca 6 mb och tog 9,77 sek att slutföra inladdningen på.
-
-Den mest tidsbesparande rekommendationen för Skånes djurparks sida på mobil var enligt Google Pagespeed att ta bort resurser som blockerar rendering. Sedan rekommenderade de att sidan skulle kunna aktivera textkomprimering, skjuta upp css som inte används och liksom Funäsfjällen använda bilder i modernare bildformat. För dator rekommenderar de i första hand att använda bilder  i rätt storlek. Sedan motsvarande rekommendationer som för mobil.
-
-<br>
-<a href="https://www.liseberg.se/">Liseberg</a>
-
-[FIGURE src="image/liseberg.png?w=700" class="center" alt="Liseberg"]
-<br>
-
-
-Lisebergs sida fick i mätningen mot mobil en poäng från Google Pagespeed på 36 och en tid till första meningsfulla skärmuppritning på 5,4 sek. Mot en dator var poängen ca 98 och för en första meningsfulla skärmuppritning låg tiden på 1,3 sek.
-Enligt devtools hade sidan ca 64 förfrågningar (även här varierade det något mellan olika inladdningar), storleken på sidan var på ca 3 mb och tog 5,38 sek att slutföra inladdningen på.
-
-Där Lisebergs mobilsida skulle kunna spara mest tid enligt Google Pagespeed är att skicka bilderna i ett modernare bildformat och även använda bilder i rätt storlek. De rekommenderar även att sidan skulle kunna skjuta upp inläsning av css som inte används samt att ta bort resurser som blockerar rendering. För datorsidan rekommenderar de i första hand att använda bilder i rätt storlek men även att skicka bilderna i ett modernare bildformat.
-
-<br>
-
-All data i undersökning finns att finna i följande dokument: <a href="https://docs.google.com/spreadsheets/d/1CSpOaE8TVdAP6MTvpjbM6mMOViLS7R3mX2fiSvCy8uc/edit?usp=sharing">Laddningstid Kmom05</a>
-
-
-
-Analys
------------------------
-Det märks kan jag tycka på inläsningstiderna att sidorna innehåller mycket bilder och information. Lisebergs sida har nog lyckats begränsa mängden bilder/information på sin första sida mest i jämförelse mot de andra två, då den läser in en fjärdedel så mycket information jämfört med Funäsfjällens sida. Skånes djurparks sida har dubbelt så mycket information jämfört med Liseberg men hälften så mycket som Funäsfjällen. Tiden på de olika sidorna följer dock inte mängden data vilket jag tycker är intressant. Som man nästan kunde gissat på förhand, hade samtliga tre sidorna hade rekommendationer på hur de kunde förbättra inladdningstiden genom att arbeta mer med bilderna. Dessa bestod till stor del av att arbeta med bilder i rätt storlek, vilket jag kan förstå när jag tittar i devtools och kan hitta flertalet bilder upp emot och över 1000kb. En annan förbättring kring bilderna som rekommenderas för alla tre sidorna är att de skulle kunna arbeta med modernare bildformat, men även att sidan inte behöver läsa in information som inte visas på bilden. Den sistnämnda kan jag tänka mig är en orsak till att Funäsfjällens sida läser in så mycket mer information än de andra två. Andra rekommendationer Pagespeed ger är att ta bort resurser som blockerar renderingen av sidan. Överlag känns det som att det finns ganska mycket man skulle kunna göra på sidorna för att få dem att arbeta snabbare.
-
-<br>
-
-Min vinnare skulle jag nog utse Lisebergs sida till. Den har absolut högst betyg av sidorna jag jämfört i Google Pagespeed, både för dator och mobil och den gick märkbart snabbast att ladda in. Den har enligt devtools minst data att läsa in och borde vara den snabbaste vilken den bevisligen även var. Två kommer Funäsfjällens sida och sist kommer Skånes djurpark. Skånes djurparks sida märkte man under inladdningstiden att den tog lång tid, den har hälften så mycket data att läsa in som Funäsfjällens sida, och borde därför inte ta 50% längre tid att läsa in.
-
-<br>
-
-Jag skulle bedöma laddningstiden av Skånes djurparks sida som alldeles för långsam, även på en dator så hinner man börja tröttna innan sidan är helt färdig. Ett resultat på 3 på mobil känns katastrofalt lågt. Lisebergs sida känns ok när man laddar in den på mobilen medans Funäsfjällens sidan upplevs något långsam, så jag kan tänka mig att en poäng på åtminstone 30 på mobil borde vara att rekommendera. På datorn känns både Lisebergs och Funäsfjällens sidor helt ok i inladdningstid, så jag kan tänka mig att en sida med ett betyg på i alla fall 85-90 poäng borde vara att föredra. Ett resultat på 79 poäng som Skånes djurpark fick, duger inte.
 
 Referenser
 -----------------------
 
 Beaird, Jason, The Principles of Beautiful Web Design, 2014
 
-<a href="https://developers.google.com/speed/pagespeed/insights/">Google Pagespeed</a>
+<a href="https://dbwebb.se/article/vl.pdf">Visual Literacy – Design Principles”</a>
 
-Devtools
+<a href="https://www.canva.com/learn/design-elements-principles/">Design Elements & Principles</a>
 
-
-Övrigt
------------------------
-
-Helena Isåfjäll
+<a href="https://color.adobe.com">Adobe Color cc</a>

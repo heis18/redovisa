@@ -12,7 +12,7 @@ views:
                 route: block/byline
 
 ---
-Laddningstid kmom05
+Laddningstid 05
 =========================
 
 Jag har i denna uppgift jämfört tre olika hemsidor, där jag undersökt sidornas laddningstid. Denna undersökning görs både i förhållande till mobil enhet och till en dator.
