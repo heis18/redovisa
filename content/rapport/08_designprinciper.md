@@ -31,7 +31,7 @@ Referenser
 
 Beaird, Jason, The Principles of Beautiful Web Design, 2014
 
-<a href="https://dbwebb.se/article/vl.pdf">Visual Literacy – Design Principles”</a>
+<a href="https://dbwebb.se/article/vl.pdf">Visual Literacy – Design Principles</a>
 
 <a href="https://www.canva.com/learn/design-elements-principles/">Design Elements & Principles</a>
 
