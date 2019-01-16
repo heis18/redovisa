@@ -75,6 +75,15 @@ Färgmässigt fortsätter sidan hålla sig till de ljusa vita och grå tonerna o
 [FIGURE src="image/edblads1.png?w=342" class="left w40"]
 [FIGURE src="image/edblads2.png?w=342" class="right w40"]
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 Högs upp på sidan finner man här en smal banner i ljust grått med mörk grå text i. Under denna ett bredare parti i helt vitt. Även i detta parti finner vi text satt i en mörkare grå ton. Under detta parti en ganska stor flashbild och under denna fortsätter det vita på sidan. Sidan är helvit i bakgrunden ända ner till footern. Footern är i samma grå ton som den första smala bannern är i headern. Den grå tonen har lite dragning åt det varmare grå hållet, viss känsla av gulton, men inte alls gult ändå. All text på sidan är satt i en mörk grå ton, eller en ton som påminner om den som footern har.
 
 En bit ner på sidan, strax över footern kan man skriva in sin e-post, submit-rutan är här satt till en gråbeige nyans, mörkare och brunare än footern, och den har även en ljusare nyansen på texten.
@@ -91,6 +100,15 @@ Fortsätter man in på sidan, följs man av samma färgtema, den vita bakgrunden
 
 [FIGURE src="image/sandin1.png?w=342" class="left w40"]
 [FIGURE src="image/sandin2.png?w=342" class="right w40"]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Sidan startar med en ganska smal banner med full sidbredd högst upp, med lite information i. Denna är en en varm ljus beige nyans, med text i en ganska ljus grå men tillräckligt mörk för att synas tydligt mot bakgrunden. Under denna upplever man det som att själva sidan startar direkt, med en helt vit bakgrund. Headern på sidan har ett visst indrag och tar inte upp hela sidans bredd. Den består av en logotyp som är i en gul ton man upplever som guldig, och text i en mörk grå nyans. Under detta en flashbild, inte heller denna i fullbredd på sidan.
 
@@ -110,6 +128,15 @@ Fortsätter man in på sidan följs man av den vita bakgrunden och färgerna i h
 
 [FIGURE src="image/smycka1.png?w=342" class="left w40"]
 [FIGURE src="image/smycka2.png?w=342" class="right w40"]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Smyckas sida inleds med en helvit header med svart text på. Under denna kommer en stor bild, i fullbredd och hög så den tar i stort sett hela skärmen. Under denna bild fortsätter hela sidan i vitt, hela bakgrunden är vit även hela vägen ner i footern. Det som avgränsar de olika delarna av sidan är ljusa grå linjer, som ligger i samma bredd som innehållet, vilket inte är hela sidbredden utan ett visst indrag på sidorna.
 
@@ -132,12 +159,30 @@ När det gäller bilderna på sidorna i förhållande till bakgrundsfärgen stä
 [FIGURE src="image/edblads4.png?w=342" class="left w40"]
 [FIGURE src="image/sandin3.png?w=342" class="right w40"]
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 När det gäller övriga bilder på sidorna upplever jag det som att även här arbetade flera av sidorna på liknande vis, med en blandning av miljöbilder på produkterna och miljöbilder från butik och verkstäder. Färgmässigt var dessa bilder dock ganska olika, där två av sidorna satsat på en blandning mellan lätt tonade färgbilder och svartvita bilder, en sida helt satsat på färgbilder och mer eller mindre samtliga gick i liknande färgskala, och den fjärde sidan inte upplevdes ha något tema på övriga bilder alls. Även här skiljde sig Jarl Sandin en del mot de övriga sidorna, då denna sida upplevdes som den med mest mix mellan olika färger i sina bilder. I detta fall är min personliga åsikt att det är negativt för dem. Det blir lätt rörigt när alla bilder är så pass olika.
 
 Vad gäller färghanteringen av bilderna upplever jag Edblads sida väldigt trevlig att titta på, att de flesta av de blandade bilderna följer ett färgtema gör att sidan upplevs harmonisk. Det blir balanserat för ögat att titta på bilderna, det är ingenting som direkt sticker ut och stör. Däremot så kan jag nästan sakna lite av den känsla som de svartvita bilderna på de båda andra sidorna kan ge. Att ha inspirationsbilder för tex vigselringar i svartvitt ger en extra romantisk bild av produkterna.
 
 [FIGURE src="image/edblads3.png?w=342" class="left w40"]
 [FIGURE src="image/smycka3.png?w=342" class="right w40"]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Överlag kan jag känna att sidorna spelar lite safe, genom att ha så extremt neutrala bakgrunder och bilder, men samtidigt förstår jag deras vad deras syfte troligtvis är – tydlighet. Och denna upplever jag i det stora hela uppfylls. Med de ljusa tonerna blir sidornas innehåll extremt tydligt, och jag kan tänka mig att en köpare uppskattar detta.
 

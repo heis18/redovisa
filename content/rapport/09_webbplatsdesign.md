@@ -53,16 +53,14 @@ Resultat
 
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 [FIGURE src="image/bergh3.png?w=340" class="left w40"]
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 
 Det första som möter mig som besökare på Berghco Advokatbyrå är en stor bild som täcker hela skärmen med logotypen på. På denna två länkar – ingenting annat – där det går att välja mellan business och advisory. Sidan är helt i svarta och vita toner. När man klickat på en länk, kommer man till vad man kan betrakta som en ”normal” webbsida.
 
@@ -78,6 +76,13 @@ Footern är tvådelad, med först två ljusgrå rutor, som blir mörkare när ma
 [FIGURE src="image/njla1.png?w=342" class="left w40"]
 [FIGURE src="image/njla2.png?w=342" class="right w40"]
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 Nerle Jonsson Lindeblad Advokatbyrås webbplats består av ytterst lite färger. Hela bakgrunden på sidan är vit, samtliga bilder är i svartvita och texten i en mörk grå nyans. Den enda färg som finns att finna på sidan är blått, en turkosblå nyans som de har i sin logotyp och en annan blå på länkarna. Njla:sida använder sig inte särskilt mycket av hela sidbredden. Sidhuvudet består av deras logotyp centrerat i toppen, under detta navbar med länkar och sedan har de en avgränsande linje som löper över hela sidbredden. Som start på sidan har de sedan en ganska stor bild, där det växlar mellan två bilder, som tar upp ca halva sidbredden, men centrerad i mitten. Bilderna här består dels av en bild på en barnfamilj och den andra på två män som diskuterar över några papper. Direkt under bilden har de ytterligare en linje över hela sidbredden som avgränsar.
@@ -98,6 +103,13 @@ Sidan ger ett ganska kallt lugnt och kliniskt fösta intryck, men den är samtid
 [FIGURE src="image/adacta1.png?w=342" class="left w40"]
 [FIGURE src="image/adacta2.png?w=342" class="right w40"]
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 Det första som möter oss på Adacta Advokatbyrås sida är en stor bild på deras medarbetare. Den föreställer över 20 svart- och vitklädda män och kvinnor som ser viktiga och respektingivande ut. Bilden tar hela sidbredden men inte hela höjden på starten på webbplatsen. Ovanför denna bild har de upp till vänster sin logotyp och upp till höger sin navbar med länkar vidare in på sidan men en vit bakgrund. Ovan för detta, högst upp på sidan, har de en smal ljusgrå remsa med telefonnummer och mailadress placerat till vänster.
@@ -122,6 +134,13 @@ Den gulbeigea tonen är den enda riktiga färg som dyker upp på sidan och denna
 [FIGURE src="image/wistrand1.png?w=342" class="left w40"]
 [FIGURE src="image/wistrand2.png?w=342" class="right w40"]
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 När man kommer in på Wistrands Advokatbyrås sida är det första man möts av en stor bild som tar nästan hela vyn, föreställande en kvällsbild med en bit av hamnen, ett par båtar och ”läppstiftet” i Göteborg. Det är en mörk bild, men med varma toner som kommer från de upplysta motiven i bilden. Bilden ligger över hela sidbredden. Längst ned på startbilden har vi byråns logotyp till vänster och navbaren till höger, dock ej hela vägen ut till kanten utan med ett indrag till smalare sidbredd. Hela bakgrunden bakom dessa är vit.
